@@ -1,16 +1,16 @@
 -- Packer's Survival Genesis Wave Script
 -- Base Game
--- Waves calculated by  (unit count / Wave Frequency) x2 for the multiplier, 
+-- Waves calculated by  (unit count / Wave Frequency) x2 for the multiplier,
 -- 60 = 1 Unit a Sec PER player Multipled
 
-local s_Waves = 
+local s_Waves =
 {
 	{	--Wave 1
 		["Title"] = "Wave 1 - Scouts",
 		["Land T1"] =
 		{
-			20,		--Scout 
-			0,		--Assault 
+			20,		--Scout
+			0,		--Assault
 			0,		--Support
 			0,		--Ranged
 			0,		--Custom
@@ -18,8 +18,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			4,		--Scout 
-			0,		--Assault 
+			4,		--Scout
+			0,		--Assault
 			0,		--Support
 			0,		--Ranged
 			0,		--Custom
@@ -62,8 +62,8 @@ local s_Waves =
 	{	-- Wave 2
 		["Land T1"] =
 		{
-			5,		--Scout 
-			15,		--Assault 
+			5,		--Scout
+			15,		--Assault
 			5,		--Support
 			4,		--Ranged
 			0,		--Custom
@@ -71,8 +71,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			2,		--1 Spy 
-			1,		--2 Fighter 
+			2,		--1 Spy
+			1,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -93,8 +93,8 @@ local s_Waves =
 	{	-- Wave 3
 		["Land T1"] =
 		{
-			0,		--Scout 
-			20,		--Assault 
+			0,		--Scout
+			20,		--Assault
 			7,		--Support
 			5,		--Ranged
 			2,		--Custom
@@ -102,8 +102,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			0,		--1 Spy 
-			4,		--2 Fighter 
+			0,		--1 Spy
+			4,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -124,8 +124,8 @@ local s_Waves =
 	{	-- Wave 4
 		["Land T1"] =
 		{
-			0,		--Scout 
-			20,		--Assault 
+			0,		--Scout
+			20,		--Assault
 			7,		--Support
 			5,		--Ranged
 			2,		--Custom
@@ -133,8 +133,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			0,		--1 Spy 
-			4,		--2 Fighter 
+			0,		--1 Spy
+			4,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			1,		--5 Custom
@@ -155,8 +155,8 @@ local s_Waves =
 	{	-- Wave 5
 		["Land T1"] =
 		{
-			0,		--Scout 
-			17,		--Assault 
+			0,		--Scout
+			17,		--Assault
 			10,		--Support
 			5,		--Ranged
 			2,		--Custom
@@ -164,8 +164,8 @@ local s_Waves =
 		},
 		["Land T2"] =
 		{
-			0,		--Scout 
-			10,		--Assault 
+			0,		--Scout
+			10,		--Assault
 			5,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -173,8 +173,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			0,		--1 Spy 
-			6,		--2 Fighter 
+			0,		--1 Spy
+			6,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			1,		--5 Custom
@@ -195,8 +195,8 @@ local s_Waves =
 	{	-- Wave 6
 		["Land T1"] =
 		{
-			0,		--Scout 
-			15,		--Assault 
+			0,		--Scout
+			15,		--Assault
 			7,		--Support
 			4,		--Ranged
 			2,		--Custom
@@ -204,8 +204,8 @@ local s_Waves =
 		},
 		["Land T2"] =
 		{
-			0,		--Scout 
-			10,		--Assault 
+			0,		--Scout
+			10,		--Assault
 			5,		--Support
 			1,		--Ranged
 			1,		--Custom
@@ -213,8 +213,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			0,		--1 Spy 
-			6,		--2 Fighter 
+			0,		--1 Spy
+			6,		--2 Fighter
 			0,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -235,8 +235,8 @@ local s_Waves =
 	{	-- Wave 7
 		["Land T1"] =
 		{
-			0,		--Scout 
-			5,		--Assault 
+			0,		--Scout
+			5,		--Assault
 			5,		--Support
 			2,		--Ranged
 			5,		--Custom
@@ -244,8 +244,8 @@ local s_Waves =
 		},
 		["Land T2"] =
 		{
-			0,		--Scout 
-			15,		--Assault 
+			0,		--Scout
+			15,		--Assault
 			7,		--Support
 			2,		--Ranged
 			2,		--Custom
@@ -253,8 +253,8 @@ local s_Waves =
 		},
 		["Air T1"] =
 		{
-			0,		--1 Spy 
-			6,		--2 Fighter 
+			0,		--1 Spy
+			6,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -275,8 +275,8 @@ local s_Waves =
 	{	-- Wave 8
 		["Land T2"] =
 		{
-			0,		--Scout 
-			22,		--Assault 
+			0,		--Scout
+			22,		--Assault
 			7,		--Support
 			2,		--Ranged
 			2,		--Custom
@@ -284,8 +284,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			6,		--2 Fighter 
+			0,		--1 Spy
+			6,		--2 Fighter
 			0,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -306,8 +306,8 @@ local s_Waves =
 	{	-- Wave 9
 		["Land T2"] =
 		{
-			0,		--Scout 
-			25,		--Assault 
+			0,		--Scout
+			25,		--Assault
 			7,		--Support
 			3,		--Ranged
 			2,		--Custom
@@ -315,8 +315,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			10,		--2 Fighter 
+			0,		--1 Spy
+			10,		--2 Fighter
 			8,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -337,8 +337,8 @@ local s_Waves =
 	{	-- Wave 10
 		["Land T2"] =
 		{
-			1,		--Scout 
-			25,		--Assault 
+			1,		--Scout
+			25,		--Assault
 			10,		--Support
 			3,		--Ranged
 			2,		--Custom
@@ -346,8 +346,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			2,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -389,8 +389,8 @@ local s_Waves =
 		},
 		["Land T2"] =
 		{
-			0,		--Scout 
-			27,		--Assault 
+			0,		--Scout
+			27,		--Assault
 			15,		--Support
 			4,		--Ranged
 			2,		--Custom
@@ -398,8 +398,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			12,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -420,8 +420,8 @@ local s_Waves =
 	{	-- Wave 12
 		["Land T2"] =
 		{
-			1,		--Scout 
-			22,		--Assault 
+			1,		--Scout
+			22,		--Assault
 			20,		--Support
 			3,		--Ranged
 			2,		--Custom
@@ -429,8 +429,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			8,		--2 Fighter 
+			0,		--1 Spy
+			8,		--2 Fighter
 			12,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -451,8 +451,8 @@ local s_Waves =
 	{	-- Wave 13
 		["Land T2"] =
 		{
-			1,		--Scout 
-			22,		--Assault 
+			1,		--Scout
+			22,		--Assault
 			20,		--Support
 			3,		--Ranged
 			3,		--Custom
@@ -460,8 +460,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			8,		--2 Fighter 
+			0,		--1 Spy
+			8,		--2 Fighter
 			8,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -482,8 +482,8 @@ local s_Waves =
 	{	-- Wave 14
 		["Land T2"] =
 		{
-			1,		--Scout 
-			22,		--Assault 
+			1,		--Scout
+			22,		--Assault
 			20,		--Support
 			1,		--Ranged
 			3,		--Custom
@@ -491,8 +491,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			14,		--2 Fighter 
+			0,		--1 Spy
+			14,		--2 Fighter
 			10,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -533,8 +533,8 @@ local s_Waves =
 		},
 		["Land T2"] =
 		{
-			1,		--Scout 
-			27,		--Assault 
+			1,		--Scout
+			27,		--Assault
 			20,		--Support
 			4,		--Ranged
 			3,		--Custom
@@ -542,8 +542,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			8,		--2 Fighter 
+			0,		--1 Spy
+			8,		--2 Fighter
 			12,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -564,8 +564,8 @@ local s_Waves =
 	{	-- Wave 16
 		["Land T2"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			20,		--Support
 			2,		--Ranged
 			4,		--Custom
@@ -573,8 +573,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			8,		--2 Fighter 
+			0,		--1 Spy
+			8,		--2 Fighter
 			16,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -595,8 +595,8 @@ local s_Waves =
 	{	-- Wave 17
 		["Land T2"] =
 		{
-			1,		--Scout 
-			20,		--Assault 
+			1,		--Scout
+			20,		--Assault
 			10,		--Support
 			3,		--Ranged
 			4,		--Custom
@@ -604,8 +604,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			10,		--Assault 
+			1,		--Scout
+			10,		--Assault
 			5,		--Support
 			1,		--Ranged
 			1,		--Custom
@@ -613,8 +613,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			16,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -624,8 +624,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			4,		--1 Spy 
-			12,		--2 Fighter 
+			4,		--1 Spy
+			12,		--2 Fighter
 			0,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -646,8 +646,8 @@ local s_Waves =
 	{	-- Wave 18
 		["Land T2"] =
 		{
-			1,		--Scout 
-			2,		--Assault 
+			1,		--Scout
+			2,		--Assault
 			2,		--Support
 			1,		--Ranged
 			1,		--Custom
@@ -655,8 +655,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			17,		--Assault 
+			1,		--Scout
+			17,		--Assault
 			10,		--Support
 			1,		--Ranged
 			1,		--Custom
@@ -664,8 +664,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			4,		--1 Spy 
-			12,		--2 Fighter 
+			4,		--1 Spy
+			12,		--2 Fighter
 			8,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -686,8 +686,8 @@ local s_Waves =
 	{	-- Wave 19
 		["Land T3"] =
 		{
-			1,		--Scout 
-			25,		--Assault 
+			1,		--Scout
+			25,		--Assault
 			15,		--Support
 			1,		--Ranged
 			2,		--Custom
@@ -695,8 +695,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -745,8 +745,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			27,		--Assault 
+			1,		--Scout
+			27,		--Assault
 			15,		--Support
 			2,		--Ranged
 			2,		--Custom
@@ -754,8 +754,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -765,8 +765,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -787,8 +787,8 @@ local s_Waves =
 	{	-- Wave 21
 		["Land T3"] =
 		{
-			1,		--Scout 
-			25,		--Assault 
+			1,		--Scout
+			25,		--Assault
 			15,		--Support
 			2,		--Ranged
 			3,		--Custom
@@ -796,8 +796,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -807,8 +807,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -829,8 +829,8 @@ local s_Waves =
 	{	-- Wave 22
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			15,		--Support
 			2,		--Ranged
 			3,		--Custom
@@ -838,8 +838,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -849,8 +849,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -871,8 +871,8 @@ local s_Waves =
 	{	-- Wave 23
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			15,		--Support
 			2,		--Ranged
 			3,		--Custom
@@ -880,8 +880,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -891,8 +891,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -913,8 +913,8 @@ local s_Waves =
 	{	-- Wave 24
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			30,		--Support
 			2,		--Ranged
 			4,		--Custom
@@ -922,8 +922,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -933,8 +933,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -983,8 +983,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			15,		--Support
 			3,		--Ranged
 			4,		--Custom
@@ -992,8 +992,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1003,8 +1003,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1025,8 +1025,8 @@ local s_Waves =
 	{	-- Wave 26
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			30,		--Support
 			3,		--Ranged
 			4,		--Custom
@@ -1034,8 +1034,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1060,8 +1060,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			15,		--Support
 			3,		--Ranged
 			4,		--Custom
@@ -1069,8 +1069,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1078,8 +1078,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1137,8 +1137,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			20,		--Support
 			3,		--Ranged
 			4,		--Custom
@@ -1146,8 +1146,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1157,8 +1157,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1179,8 +1179,8 @@ local s_Waves =
 	{	-- Wave 29
 		["Land T3"] =
 		{
-			1,		--Scout 
-			30,		--Assault 
+			1,		--Scout
+			30,		--Assault
 			20,		--Support
 			3,		--Ranged
 			4,		--Custom
@@ -1188,8 +1188,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			1,		--Ranged
 			1,		--Custom
@@ -1197,8 +1197,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1208,8 +1208,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1219,8 +1219,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1253,8 +1253,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			40,		--Assault 
+			1,		--Scout
+			40,		--Assault
 			20,		--Support
 			4,		--Ranged
 			4,		--Custom
@@ -1262,8 +1262,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1273,8 +1273,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1299,8 +1299,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			50,		--Assault 
+			1,		--Scout
+			50,		--Assault
 			20,		--Support
 			2,		--Ranged
 			4,		--Custom
@@ -1308,8 +1308,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1317,8 +1317,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			4,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1328,8 +1328,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			10,		--2 Fighter 
+			0,		--1 Spy
+			10,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1348,7 +1348,7 @@ local s_Waves =
 		},
 	},
 	{	-- Wave 32 - BASE SPAWN
-		["Base"] = 
+		["Base"] =
 		{	--Blueprint, Health, Regen Rate (PER player)
 			100000, 40,
 		},
@@ -1366,8 +1366,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			50,		--Assault 
+			1,		--Scout
+			50,		--Assault
 			20,		--Support
 			2,		--Ranged
 			4,		--Custom
@@ -1375,8 +1375,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			4,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1386,8 +1386,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			10,		--2 Fighter 
+			0,		--1 Spy
+			10,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1412,8 +1412,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			5,		--Custom
@@ -1421,8 +1421,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1432,8 +1432,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1454,8 +1454,8 @@ local s_Waves =
 	{	-- Wave 34
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -1463,8 +1463,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1472,8 +1472,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1483,8 +1483,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1494,8 +1494,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1520,8 +1520,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -1529,8 +1529,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1538,8 +1538,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1549,8 +1549,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1560,8 +1560,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1594,8 +1594,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			40,		--Assault 
+			1,		--Scout
+			40,		--Assault
 			12,		--Support
 			3,		--Ranged
 			5,		--Custom
@@ -1603,8 +1603,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			1,		--Ranged
 			1,		--Custom
@@ -1612,8 +1612,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			0,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1623,8 +1623,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1634,8 +1634,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1660,8 +1660,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			2,		--Scout 
-			30,		--Assault 
+			2,		--Scout
+			30,		--Assault
 			17,		--Support
 			3,		--Ranged
 			5,		--Custom
@@ -1669,8 +1669,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			0,		--Scout 
-			2,		--Assault 
+			0,		--Scout
+			2,		--Assault
 			0,		--Support
 			2,		--Ranged
 			0,		--Custom
@@ -1678,8 +1678,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1689,8 +1689,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			1,		--1 Spy 
-			12,		--2 Fighter 
+			1,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1700,8 +1700,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			2,		--1 Spy 
-			0,		--2 Fighter 
+			2,		--1 Spy
+			0,		--2 Fighter
 			2,		--3 Support
 			0,		--4 Ranged
 			2,		--5 Custom
@@ -1726,8 +1726,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -1735,8 +1735,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1744,8 +1744,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1755,8 +1755,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1766,8 +1766,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1788,8 +1788,8 @@ local s_Waves =
 	{	-- Wave 39
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -1797,8 +1797,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1806,8 +1806,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1817,8 +1817,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1828,8 +1828,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1882,8 +1882,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -1891,8 +1891,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1900,8 +1900,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1911,8 +1911,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1922,8 +1922,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -1944,8 +1944,8 @@ local s_Waves =
 	{	-- Wave 41
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -1953,8 +1953,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -1962,8 +1962,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -1973,8 +1973,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -1984,8 +1984,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2006,8 +2006,8 @@ local s_Waves =
 	{	-- Wave 42
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2015,8 +2015,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2024,8 +2024,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2035,8 +2035,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2046,8 +2046,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2068,8 +2068,8 @@ local s_Waves =
 	{	-- Wave 43
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2077,8 +2077,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2086,8 +2086,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2097,8 +2097,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2108,8 +2108,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2134,8 +2134,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2143,8 +2143,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2152,8 +2152,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2163,8 +2163,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2174,8 +2174,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2224,8 +2224,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2233,8 +2233,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2242,8 +2242,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2253,8 +2253,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2264,8 +2264,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2286,8 +2286,8 @@ local s_Waves =
 	{	-- Wave 46
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2295,8 +2295,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2304,8 +2304,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2315,8 +2315,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2326,8 +2326,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2352,8 +2352,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2361,8 +2361,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2370,8 +2370,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2381,8 +2381,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2392,8 +2392,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2414,8 +2414,8 @@ local s_Waves =
 	{	-- Wave 48
 		["Land T3"] =
 		{
-			1,		--Scout 
-			60,		--Assault 
+			1,		--Scout
+			60,		--Assault
 			20,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2423,8 +2423,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			1,		--Assault 
+			1,		--Scout
+			1,		--Assault
 			1,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2432,8 +2432,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			8,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2443,8 +2443,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2454,8 +2454,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2476,8 +2476,8 @@ local s_Waves =
 	{	-- Wave 49 - Mega
 		["Land T3"] =
 		{
-			1,		--Scout 
-			120,		--Assault 
+			1,		--Scout
+			120,		--Assault
 			40,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2485,8 +2485,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			4,		--Assault 
+			1,		--Scout
+			4,		--Assault
 			4,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2494,8 +2494,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			16,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2505,8 +2505,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			8,		--3 Support
 			8,		--4 Ranged
 			4,		--5 Custom
@@ -2516,8 +2516,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			2,		--2 Fighter 
+			1,		--1 Spy
+			2,		--2 Fighter
 			2,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2570,8 +2570,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			120,		--Assault 
+			1,		--Scout
+			120,		--Assault
 			40,		--Support
 			3,		--Ranged
 			8,		--Custom
@@ -2579,8 +2579,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			1,		--Scout 
-			4,		--Assault 
+			1,		--Scout
+			4,		--Assault
 			4,		--Support
 			0,		--Ranged
 			1,		--Custom
@@ -2588,8 +2588,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			0,		--1 Spy 
-			0,		--2 Fighter 
+			0,		--1 Spy
+			0,		--2 Fighter
 			16,		--3 Support
 			0,		--4 Ranged
 			0,		--5 Custom
@@ -2599,8 +2599,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			0,		--1 Spy 
-			12,		--2 Fighter 
+			0,		--1 Spy
+			12,		--2 Fighter
 			8,		--3 Support
 			8,		--4 Ranged
 			4,		--5 Custom
@@ -2610,8 +2610,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			2,		--2 Fighter 
+			1,		--1 Spy
+			2,		--2 Fighter
 			2,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2632,8 +2632,8 @@ local s_Waves =
 	{	-- Wave 38 Post Last Filler
 		["Land T3"] =
 		{
-			2,		--Scout 
-			30,		--Assault 
+			2,		--Scout
+			30,		--Assault
 			17,		--Support
 			3,		--Ranged
 			5,		--Custom
@@ -2641,8 +2641,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			0,		--Scout 
-			2,		--Assault 
+			0,		--Scout
+			2,		--Assault
 			0,		--Support
 			2,		--Ranged
 			0,		--Custom
@@ -2650,8 +2650,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2661,8 +2661,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			1,		--1 Spy 
-			12,		--2 Fighter 
+			1,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2672,8 +2672,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			0,		--1 Spy 
-			2,		--2 Fighter 
+			0,		--1 Spy
+			2,		--2 Fighter
 			0,		--3 Support
 			2,		--4 Ranged
 			0,		--5 Custom
@@ -2698,8 +2698,8 @@ local s_Waves =
 		},
 		["Land T3"] =
 		{
-			2,		--Scout 
-			30,		--Assault 
+			2,		--Scout
+			30,		--Assault
 			17,		--Support
 			3,		--Ranged
 			5,		--Custom
@@ -2707,8 +2707,8 @@ local s_Waves =
 		},
 		["Land T4"] =
 		{
-			2,		--Scout 
-			2,		--Assault 
+			2,		--Scout
+			2,		--Assault
 			2,		--Support
 			2,		--Ranged
 			2,		--Custom
@@ -2716,8 +2716,8 @@ local s_Waves =
 		},
 		["Air T2"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2727,8 +2727,8 @@ local s_Waves =
 		},
 		["Air T3"] =
 		{
-			1,		--1 Spy 
-			12,		--2 Fighter 
+			1,		--1 Spy
+			12,		--2 Fighter
 			4,		--3 Support
 			4,		--4 Ranged
 			4,		--5 Custom
@@ -2738,8 +2738,8 @@ local s_Waves =
 		},
 		["Air T4"] =
 		{
-			2,		--1 Spy 
-			2,		--2 Fighter 
+			2,		--1 Spy
+			2,		--2 Fighter
 			2,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -2759,13 +2759,13 @@ local s_Waves =
 	},
 }
 
-local s_EndlessWave = 
+local s_EndlessWave =
 {
 	{	--Endless Wave 1
 		["Land T4"] =
 		{
-			5,		--Scout 
-			5,		--Assault 
+			5,		--Scout
+			5,		--Assault
 			5,		--Support
 			5,		--Ranged
 			5,		--Custom
@@ -2773,8 +2773,8 @@ local s_EndlessWave =
 		},
 		["Land T3"] =
 		{
-			1,		--Scout 
-			50,		--Assault 
+			1,		--Scout
+			50,		--Assault
 			20,		--Support
 			4,		--Ranged
 			4,		--Custom
@@ -2782,8 +2782,8 @@ local s_EndlessWave =
 		},
 		["Air T2"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom
@@ -2793,8 +2793,8 @@ local s_EndlessWave =
 		},
 		["Air T3"] =
 		{
-			1,		--1 Spy 
-			20,		--2 Fighter 
+			1,		--1 Spy
+			20,		--2 Fighter
 			2,		--3 Support
 			2,		--4 Ranged
 			2,		--5 Custom
@@ -2815,8 +2815,8 @@ local s_EndlessWave =
 	{	--Endless Wave 2
 		["Land T3"] =
 		{
-			1,		--Scout 
-			50,		--Assault 
+			1,		--Scout
+			50,		--Assault
 			20,		--Support
 			4,		--Ranged
 			4,		--Custom
@@ -2824,8 +2824,8 @@ local s_EndlessWave =
 		},
 		["Land T4"] =
 		{
-			5,		--Scout 
-			5,		--Assault 
+			5,		--Scout
+			5,		--Assault
 			5,		--Support
 			5,		--Ranged
 			5,		--Custom
@@ -2833,8 +2833,8 @@ local s_EndlessWave =
 		},
 		["Air T4"] =
 		{
-			1,		--1 Spy 
-			1,		--2 Fighter 
+			1,		--1 Spy
+			1,		--2 Fighter
 			1,		--3 Support
 			1,		--4 Ranged
 			1,		--5 Custom

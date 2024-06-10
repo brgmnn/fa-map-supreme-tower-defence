@@ -31,17 +31,17 @@ SpawnACUs = function(Mods)
 	if(Mods[23][1]) then
 		Commanders = {'MAS0001', 'MAS0001', 'MAS0001', 'MAS0001', 'MAS0001'};
 	end
-		
+
 	for i, Army in ListArmies() do
 
-		if (ArmyToInt.GetInt(Army) > 0) then 
+		if (ArmyToInt.GetInt(Army) > 0) then
 
 			FactionID = GetArmyBrain(Army):GetFactionIndex();
 
 			MarkerRef =  Scenario.MasterChain._MASTERCHAIN_.Markers[Army];
-			
+
 			if (MarkerRef != nil) then
-			
+
 				POS = MarkerRef.position;
 
 				--SCTAFix
@@ -67,7 +67,7 @@ SpawnACUs = function(Mods)
 					if (Mods[2][1] and FactionID ~= 5) then -- nomads
 						CreateUnitHPR('XNL0105', Army, POS[1] - 4, POS[2], POS[3] - 2, 0,0,0);
 					end
-					
+
 					--SCTA
 					if(Mods[23][1]) then
 						CreateUnitHPR('ARMCA', Army, POS[1] + 6, POS[2], POS[3] - 2, 0,0,0);
@@ -76,7 +76,7 @@ SpawnACUs = function(Mods)
 						CreateUnitHPR('CORCV', Army, POS[1] - 8, POS[2], POS[3] - 2, 0,0,0);
 					end
 				end
-				
+
 				--T2 Engineers
 				if (spawnID == 2) then
 
@@ -132,7 +132,7 @@ SpawnACUs = function(Mods)
 						CreateUnitHPR('CORCSA', Army, POS[1] - 8, POS[2], POS[3] - 2, 0,0,0);
 					end
 				end
-				
+
 				--Support Commanders
 				if (spawnID == 4) then
 
@@ -158,10 +158,10 @@ SpawnACUs = function(Mods)
 						CreateUnitHPR('CORDECOM', Army, POS[1] - 6, POS[2], POS[3] - 2, 0,0,0);
 					end
 				end
-				
+
 				--ACUs
 				if (spawnID == 5) then
-				
+
 						PlayerCom[Army] = CreateUnitHPR(Commanders[1], Army, POS[1], POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 						playerCount = playerCount + 1;
 						CreateUnitHPR(Commanders[2], Army, POS[1] + 2, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
@@ -180,7 +180,7 @@ SpawnACUs = function(Mods)
 					CreateUnitHPR(Commanders[2], Army, POS[1] + 2, POS[2], POS[3] - 4, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 					CreateUnitHPR(Commanders[3], Army, POS[1] + 4, POS[2], POS[3] - 4, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 					CreateUnitHPR(Commanders[4], Army, POS[1] - 2, POS[2], POS[3] - 4, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
-					
+
 					CreateUnitHPR(Commanders[1], Army, POS[1] + 0, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 					CreateUnitHPR(Commanders[2], Army, POS[1] + 2, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 					CreateUnitHPR(Commanders[3], Army, POS[1] + 4, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
@@ -191,25 +191,25 @@ SpawnACUs = function(Mods)
 						CreateUnitHPR(Commanders[5], Army, POS[1] - 4, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 					end
 				end
-				
+
 				--ACU 4 Clones
 				if (spawnID == 8) then
-				
+
 						PlayerCom[Army] = CreateUnitHPR(Commanders[FactionID], Army, POS[1], POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 						playerCount = playerCount + 1;
 						CreateUnitHPR(Commanders[FactionID], Army, POS[1] + 2, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 						CreateUnitHPR(Commanders[FactionID], Army, POS[1] + 4, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 						CreateUnitHPR(Commanders[FactionID], Army, POS[1] - 2, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 				end
-				
+
 				--ACU Clone
 				if (spawnID == 9) then
-				
+
 						PlayerCom[Army] = CreateUnitHPR(Commanders[FactionID], Army, POS[1], POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 						playerCount = playerCount + 1;
 						CreateUnitHPR(Commanders[FactionID], Army, POS[1] + 2, POS[2], POS[3] - 2, 0,0,0):SetCustomName(GetArmyBrain(Army).Nickname);
 				end
-				
+
 				--Fatboy and Megalith
 				if (spawnID == 7) then
 
@@ -240,8 +240,8 @@ SpawnACUs = function(Mods)
 					PlayerCom[Army] = ACU;
 					playerCount = playerCount + 1;
 				end
-				
-				
+
+
 				--Spawn Faction ACU
 				if(spawnID ~= 5 and spawnID ~= 6 and spawnID ~= 7 and spawnID ~= 8 and spawnID ~= 9) then
 					if (FactionID == 1) then -- uef

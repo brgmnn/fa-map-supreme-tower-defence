@@ -1,10 +1,10 @@
 -- Packer's Survival Genesis Wave Script
 -- Base Game
--- Waves calculated by  (unit count / Wave Frequency) x2 for the multiplier, 
+-- Waves calculated by  (unit count / Wave Frequency) x2 for the multiplier,
 -- 60 = 1 Unit a Sec PER player Multipled
 
 --Units Units need to be in lower case
-local s_Waves = 
+local s_Waves =
 {
 		--["Boss"] =
 		--{
@@ -22,8 +22,8 @@ local s_Waves =
 		--},
 
 	-- Wave 1
-	{  
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
@@ -34,11 +34,11 @@ local s_Waves =
 	},
 	-- Wave 2
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 			},
 			{
@@ -51,11 +51,11 @@ local s_Waves =
 	},
 	--Wave 3
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"AA"},
 			},
@@ -63,55 +63,55 @@ local s_Waves =
 	},
 	--Wave 4
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"AA"},
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"SHIELD"},
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 			},
 		},
 	},
 	--Wave 5
-	{  
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 500,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 500,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 500,
@@ -119,40 +119,40 @@ local s_Waves =
 		},
 	},
 	--Wave 6
-	{  
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -160,12 +160,12 @@ local s_Waves =
 		},
 	},
 	--Wave 7
-	{  
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -173,28 +173,28 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -202,19 +202,19 @@ local s_Waves =
 		},
 	},
 	--Wave 8
-	{ 
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -222,67 +222,67 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 			},
 		},
 	},
 	--Wave 9
-	{ 
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -291,40 +291,40 @@ local s_Waves =
 		},
 	},
 	--Wave 10
-	{ 
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -332,12 +332,12 @@ local s_Waves =
 		},
 	},
 	--Wave 11
-	{ 
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'},	--Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -345,7 +345,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -353,7 +353,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401', 'xsl0401', 'url0402'},	--Fatboy -- Thot -- Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -361,7 +361,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401','url0402','xsl0401'},	--Fatboy --Spider --Thot
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -370,33 +370,33 @@ local s_Waves =
 		},
 	},
 	--Wave 12
-	{ 
-		["Boss"] = 
+	{
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402', 'uel0401', 'xrl0403'},	--Monkeylord--Fatboy--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401','xrl0403'},	--Fatboy--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401', 'xsl0401', 'url0402'},	--Fatboy -- Thot -- Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402','xrl0403'},	--Spider--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -405,39 +405,39 @@ local s_Waves =
 	},
 	--Wave 13
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 8000,
@@ -446,81 +446,81 @@ local s_Waves =
 	},
 	--Wave 14
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 8000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 8000,
@@ -529,74 +529,74 @@ local s_Waves =
 	},
 	--Wave 15
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 9000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 9000,
@@ -605,11 +605,11 @@ local s_Waves =
 	},
 	--Wave 16
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["Speed"] = 2;
@@ -618,81 +618,81 @@ local s_Waves =
 	},
 	--Wave 17
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
@@ -701,53 +701,53 @@ local s_Waves =
 	},
 	--Wave 18
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["Speed"] = 0.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["Speed"] = 0.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["Speed"] = 0.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["Speed"] = 0.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["Speed"] = 0.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["Speed"] = 0.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["Speed"] = 0.5;
@@ -756,95 +756,95 @@ local s_Waves =
 	},
 	--Wave 19
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
@@ -853,11 +853,11 @@ local s_Waves =
 	},
 	--Wave 20
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
@@ -865,7 +865,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
@@ -873,7 +873,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
@@ -881,7 +881,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
@@ -889,7 +889,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
@@ -897,7 +897,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
@@ -905,49 +905,49 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
@@ -956,109 +956,109 @@ local s_Waves =
 	},
 	--Wave 21
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["Speed"] = 1.5;
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 10000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 10000,
@@ -1067,102 +1067,102 @@ local s_Waves =
 	},
 	--Wave 22
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 11000,
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 11000,
@@ -1171,11 +1171,11 @@ local s_Waves =
 	},
 	--Wave 23
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 5,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 25000,
@@ -1183,7 +1183,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"AA"},
 				["HP"] = 25000,
@@ -1191,7 +1191,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 6,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 25000,
@@ -1199,7 +1199,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 25000,
@@ -1209,11 +1209,11 @@ local s_Waves =
 	},
 	--Wave 24
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 10,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 1000,
@@ -1221,21 +1221,21 @@ local s_Waves =
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -1244,11 +1244,11 @@ local s_Waves =
 	},
 	--Wave 25
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 5,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 9000,
@@ -1256,21 +1256,21 @@ local s_Waves =
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 6000,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 6000,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 6000,
@@ -1279,11 +1279,11 @@ local s_Waves =
 	},
 	--Wave 26
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 4,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 0,
@@ -1291,28 +1291,28 @@ local s_Waves =
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 1500,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 1500,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 1500,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"TACTD"},
 				["HP"] = 1500,
@@ -1321,32 +1321,32 @@ local s_Waves =
 	},
 	--Wave 27
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 6,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 1000,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 1000,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 1000,
 			},
 			{
 				["Count"] = 3,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 1000,
@@ -1355,11 +1355,11 @@ local s_Waves =
 	},
 	--Wave 28
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -1367,7 +1367,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -1375,7 +1375,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -1383,7 +1383,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1391,7 +1391,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -1399,7 +1399,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -1407,7 +1407,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1415,7 +1415,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -1423,7 +1423,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -1431,7 +1431,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -1439,7 +1439,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1447,7 +1447,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -1455,7 +1455,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -1463,7 +1463,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -1471,7 +1471,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1479,7 +1479,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
@@ -1487,7 +1487,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
@@ -1495,7 +1495,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
@@ -1503,7 +1503,7 @@ local s_Waves =
 			},
 			{
 				["Count"] = 1,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1513,137 +1513,137 @@ local s_Waves =
 	},
 	--Wave 29
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1652,11 +1652,11 @@ local s_Waves =
 	},
 	--Wave 30
 	{
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 1000000,
@@ -1666,140 +1666,140 @@ local s_Waves =
 	},
 }
 
-local s_WavesEndless = 
+local s_WavesEndless =
 {
 	{	-- Loop Wave 1
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'url0402'}, --Monkeylord
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'uel0401'},	--Fatboy
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xrl0403'},	--Megalith
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'xsl0401'},	--Thot
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"AA"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"HPD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 5000,
 			},
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"SHIELD"},
 				["HP"] = 5000,
@@ -1807,11 +1807,11 @@ local s_WavesEndless =
 		},
 	},
 	{--Loop 2
-		["Boss"] = 
+		["Boss"] =
 		{
 			{
 				["Count"] = 2,
-				["Type"] = "LAND", 
+				["Type"] = "LAND",
 				["Blueprint"] =  {'ual0401'},	--Colossus
 				["Mods"] = {"TACTD"},
 				["HP"] = 2000000,

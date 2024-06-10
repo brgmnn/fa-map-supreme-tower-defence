@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -20,10 +20,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -78,7 +78,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -92,10 +92,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -123,7 +123,7 @@ local s_UnitTable =
 		{
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -151,7 +151,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -165,13 +165,13 @@ local s_UnitTable =
 			'KEL0303', 'KEL0304','KEL0305', 'KEL0307',
 		},
 		--4 Ranged
-		{	
+		{
 			'KAL0304',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'KEL0308',	--Nuke Cannon
 		},
@@ -216,7 +216,7 @@ local s_UnitTable =
 			'KES0301','KES0302',
 			'KES0401','KES0302',
 			'KRS0302','KRS0401',
-			
+
 		},
 		--3 Support
 		{
@@ -232,13 +232,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			'KAL0401', 'KRL0401', 'KEL0407', 'KAL0402', 'KRL0402', 'KSL0401', 'KEL0402', 'KEL0405',
 		},
 		--3 Support
@@ -247,16 +247,16 @@ local s_UnitTable =
 		},
 		--4 Ranged
 		{
-			'KEL0401', 'KEL0404', 
+			'KEL0401', 'KEL0404',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -284,7 +284,7 @@ local s_UnitTable =
 			'KAA0401', 'KEA0401'
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

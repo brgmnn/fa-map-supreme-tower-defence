@@ -13,7 +13,7 @@ SpawnNukeLauncher = function(Marker, Mods)
 	random = math.random(1, random);
 
 	local unit = CreateUnitHPR(launcherBlueprints[random], "ARMY_SURVIVAL_ENEMY", position[1],position[2],position[3],0,0,0);
-	
+
 	--Cannot be destroyed or targeted
 	unit:SetDoNotTarget(true);
 	unit:SetUnSelectable(true);

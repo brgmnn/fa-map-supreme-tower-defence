@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -24,10 +24,10 @@ local s_UnitTable =
 		{
 			'ARMHAM', 'CORTHUD',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -87,7 +87,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 			'ARMSPY', 'CORSPY',
 		},
@@ -106,10 +106,10 @@ local s_UnitTable =
 			'ARMMANNI', 'ARMMERL', 'ARMROCK',
 			'CORHRK', 'CORVROC',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -141,7 +141,7 @@ local s_UnitTable =
 		{
 		},
 		--8 Gunship
-		{	
+		{
 			'ARMBRAWL', 'CORAPE',
 		},
 
@@ -175,7 +175,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 			'ARMSH', 'CORSH',
 		},
@@ -190,14 +190,14 @@ local s_UnitTable =
 			'CORAH', 'CORVOYR', 'CORVRAD',
 		},
 		--4 Ranged
-		{		
+		{
 			'ARMMART', 'ARMMH', 'ARMSNIPE',
 			'CORART', 'CORMH', 'CORMORT',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -205,7 +205,7 @@ local s_UnitTable =
 	{
 		--1 Spy
 		{
-			'ARMAWAC','ARMSEHAK', 
+			'ARMAWAC','ARMSEHAK',
 			'CORAWAC', 'CORHUNT',
 		},
 		--2 Fighter
@@ -264,13 +264,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			'CORKROG',
 		},
 		--3 Support
@@ -279,16 +279,16 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'ARMDECOM',
 			'CORDECOM',
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -315,7 +315,7 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

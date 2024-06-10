@@ -23,12 +23,12 @@ Settings = function()
 
 				--Get ARMY Spawn position
 				local POS = Scenario.MasterChain._MASTERCHAIN_.Markers[Army].position;
-				
+
 				ResourceCreation.CreateResource("Mass", POS[1] + 2, POS[2], POS[3] + 14);
 				ResourceCreation.CreateResource("Mass", POS[1] - 2, POS[2], POS[3] + 14);
 				ResourceCreation.CreateResource("Mass", POS[1] + 6, POS[2], POS[3] + 14);
 				ResourceCreation.CreateResource("Mass", POS[1] - 6, POS[2], POS[3] + 14);
-				
+
 				local blueprints = ResourceCreation.GetResourceBlueprint(Army, ScenarioInfo.Options.opt_Survival_FastEco);
 
 				-- 2nd Power Gen

@@ -2,7 +2,7 @@
 -- Created by Packer
 
 ModUnit = function(CustomUnit, UnitID, unitMods, Wave)
-	
+
 	if(unitMods == nil or CustomUnit == nil or UnitID == nil) then
 		return;
 	end
@@ -18,31 +18,31 @@ ModUnit = function(CustomUnit, UnitID, unitMods, Wave)
 		local Wep = {nil, nil, nil,nil};
 		local WepPos = {0,0,0,0};
 		local count = 0;
-	
+
 		--Fatboy 'UEL0401'
 		if(UnitID == 'UEL0401' or UnitID == 'uel0401') then
 			count = 4;
 			WepPos = {3, 4, 5, 6}
 		end
-	
+
 		--Monkeylord URL0402
 		if(UnitID == 'URL0402' or UnitID == 'url0402') then
 			count = 2;
 			WepPos = {2, 3, 0, 0}
 		end
-	
+
 		--Megalith XRL0403
 		if(UnitID == 'XRL0403' or UnitID == 'xrl0403') then
 			count = 3;
 			WepPos = {20, 15, 16, 0}
 		end
-	
+
 		--Galactic Colossus UAL0401
 		if(UnitID == 'UAL0401' or UnitID == 'ual0401') then
 			count = 2;
 			WepPos = {5, 2, 0, 0}
 		end
-	
+
 		--Ythotha XSL0401
 		if(UnitID == 'XSL0401' or UnitID == 'xsl0401') then
 			count = 2;
@@ -55,7 +55,7 @@ ModUnit = function(CustomUnit, UnitID, unitMods, Wave)
 			count = 4;
 			WepPos = {7, 9, 10, 11}
 		end
-		
+
 
 		--NAVY
 		--Atlantis UES0401
@@ -69,9 +69,9 @@ ModUnit = function(CustomUnit, UnitID, unitMods, Wave)
 			LOG("Unknown Mod Unit");
 			WepPos = {1, 0, 0, 0}
 		end
-	
+
 		for i = 1, count do
-	
+
 			--Anti Air
 			if(unitMods[x] == "AA") then
 				Wep[i] = CreateUnitHPR('URB2304', "ARMY_SURVIVAL_ENEMY", 0,0,0,0,0,0);
@@ -87,7 +87,7 @@ ModUnit = function(CustomUnit, UnitID, unitMods, Wave)
 				Wep[i] = CreateUnitHPR('UAB4201', "ARMY_SURVIVAL_ENEMY", 0,0,0,0,0,0);
 			end
 
-			--Shield 
+			--Shield
 			if(unitMods[x] == "SHIELD") then
 				local ShieldSpecs = {
 					ImpactEffects = 'SeraphimShieldHit01',

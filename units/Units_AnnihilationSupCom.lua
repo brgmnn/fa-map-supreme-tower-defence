@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -19,10 +19,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -76,7 +76,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -89,10 +89,10 @@ local s_UnitTable =
 		{
 			'UMR_L0201', 'XXX7103', 'ZAL3138',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -121,7 +121,7 @@ local s_UnitTable =
 			'UMR_A0301',
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -149,7 +149,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -161,13 +161,13 @@ local s_UnitTable =
 			 'UAL03071',
 		},
 		--4 Ranged
-		{		
+		{
 			 'XSL81010',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			 'XSLE0001',
 		},
@@ -225,13 +225,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			 'DEL02041', 'LDEC100',  'OEL0402',  'UAL0402',  'UEL03011',  'UEL04011', 'UELB0401', 'URL04021', 'URL4822', 'WRL0404', 'WRL1466',  'WRL2466B',  'WSL04055',  'WZA7401',  'XRL04031',  'ZXL0401',
 		},
 		--3 Support
@@ -242,15 +242,15 @@ local s_UnitTable =
 		{
 			 'OEL0401',  'XSL04041',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			 'LDUC210', 'URL11401',  'XSL04011',
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -279,7 +279,7 @@ local s_UnitTable =
 			 'OEA0401',  'QRA4404a',
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

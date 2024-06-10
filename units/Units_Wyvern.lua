@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -19,10 +19,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -76,24 +76,24 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
 		{
-			'WRL0302', 'WSL0202', 'WSL0205', 
+			'WRL0302', 'WSL0202', 'WSL0205',
 		},
 		--3 Support
 		{
-			'WEL0207', 'WRL0207', 
+			'WEL0207', 'WRL0207',
 		},
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -104,7 +104,7 @@ local s_UnitTable =
 		},
 		--2 Fighter
 		{
-			'WRA0202', 'WSA0201', 
+			'WRA0202', 'WSA0201',
 		},
 		--3 Support
 		{
@@ -122,7 +122,7 @@ local s_UnitTable =
 		{
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -149,7 +149,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -163,13 +163,13 @@ local s_UnitTable =
 			'WAL0309', 'WEL0309', 'WRL0309','WSL0309',
 		},
 		--4 Ranged
-		{		
+		{
 			'WEL03041','WRL0305', 'WRL1211',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -226,13 +226,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			'WAL0401', 'WAL4404','WEL0401','WEL0416',
 			'WEL1409', 'WEL4404', 'WRL0402','WRL0404',
 			'WRL1466', 'WRL2466', 'WSL0403', 'WSL0404',
@@ -243,14 +243,14 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -278,7 +278,7 @@ local s_UnitTable =
 			'WRA0401',
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

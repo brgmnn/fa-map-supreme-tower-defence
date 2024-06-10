@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -22,10 +22,10 @@ local s_UnitTable =
 		{
 			'SMP0044','SMP0048','SMP0031','SMP0067','SMP0071','smpa0060',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -82,7 +82,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 			'SMP0003',
 		},
@@ -98,10 +98,10 @@ local s_UnitTable =
 		{
 			'SMP0025','SMP0006',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -130,7 +130,7 @@ local s_UnitTable =
 		{
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -157,7 +157,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -169,13 +169,13 @@ local s_UnitTable =
 			'SMP0050','SMP0009','SMP0047','smpa0057','SMPA0059',
 		},
 		--4 Ranged
-		{	
+		{
 			'SMP0022',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -214,7 +214,7 @@ local s_UnitTable =
 		{
 		},
 		--2 Assault
-		{			
+		{
 		},
 		--3 Support
 		{
@@ -229,13 +229,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
       'SMP0013',
 		},
 		--3 Support
@@ -244,14 +244,14 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -279,7 +279,7 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

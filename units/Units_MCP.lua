@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -21,10 +21,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'mal1101', 'mal1102', 'mel1101', 'mel1102', 'mrl1101', 'mrl1102', 'msl1101', 'msl1102',
 		},
@@ -84,7 +84,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -98,10 +98,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'mal1201', 'mal1202', 'mel1201', 'mel1202', 'mrl1201', 'mrl1202', 'msl1201', 'msl1202',
 		},
@@ -133,7 +133,7 @@ local s_UnitTable =
 			'maa0205',
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -165,7 +165,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -177,14 +177,14 @@ local s_UnitTable =
 			'mrl0307',
 		},
 		--4 Ranged
-		{		
+		{
 			'mel0308', 'mrl0308',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 			'msl0306',
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'mal1301', 'mal1302', 'mel1301', 'mel1302', 'mrl1301', 'mrl1302', 'msl1301', 'msl1302',
 		},
@@ -244,13 +244,13 @@ local s_UnitTable =
 			'mas1301', 'mes1301', 'mrs1301', 'mss1301',
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			'mel1402', 'mrl1402',
 		},
 		--3 Support
@@ -261,15 +261,15 @@ local s_UnitTable =
 		{
 			'mal1403', 'mel1403', 'msl1403',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'mal1404', 'mel1404', 'mrl1404', 'msl1404',
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -298,7 +298,7 @@ local s_UnitTable =
 			'mra1401',
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

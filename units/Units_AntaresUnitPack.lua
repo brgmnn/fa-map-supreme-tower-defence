@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -21,10 +21,10 @@ local s_UnitTable =
 		{
 			'ORL0111'
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -80,7 +80,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -95,10 +95,10 @@ local s_UnitTable =
 		{
 			'UMR_L0201', 'XSL0207', 'ZAL3138', 'XXX7103',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'LTA3002', 'XSLE0001', 'XSLEW0001',
 		},
@@ -129,7 +129,7 @@ local s_UnitTable =
 			'UMA_A0201', 'UMR_A0301',
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -157,7 +157,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -169,13 +169,13 @@ local s_UnitTable =
 			'GMRL308', 'GMRL312', 'WEL0309', 'GMAL307', 'GMAL313', 'GMSL303', 'GMSL306', 'ZAL0205',
 		},
 		--4 Ranged
-		{		
+		{
 			'XSL81010',  --'UAL0311', Breaks
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'LDUC11',  'WSL0405', --'SMPA0060',
 		},
@@ -238,16 +238,16 @@ local s_UnitTable =
 			'URS_PRG',
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			'GEHL0305', 'GGL0808', 'GMAL0401', 'GMSL312',
-			'OEL0402', 'UAL0402', 'URL04822', 
-			'WAL0305', 'WAL0309',  
+			'OEL0402', 'UAL0402', 'URL04822',
+			'WAL0305', 'WAL0309',
 			'WEL0302', 'WEL0305',
 			'WRL0303',  'WRL0404', 'WRL04044', 'WRL1466', 'WRL1466', --'WRL0306',
 			'WSL0302',  'WZA7401',  --'XEL0401', Breaks
@@ -265,15 +265,15 @@ local s_UnitTable =
 			'WEL03041', 'XRL0384',  'XSL04041',  'XXAl03855',
 			'ZAL9044',  'ZXL03084',  'ZXSL0385',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'OEL0401', 'URL4032',
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -306,7 +306,7 @@ local s_UnitTable =
 			'XSSE0001',
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{
@@ -315,7 +315,7 @@ local s_UnitTable =
 		},
 		--2 Assault
 		{
-		   'ANC_URS404', 'CT4BS',  'GMAS308',  'GMSS401',  'UT4BS',  
+		   'ANC_URS404', 'CT4BS',  'GMAS308',  'GMSS401',  'UT4BS',
 		   'WES0401',  'WRS0401',  'XRS0402',  'XSS03021',
 		},
 		--3 Support

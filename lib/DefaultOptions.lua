@@ -8,11 +8,11 @@ SetDefaults = function()
 	if (ScenarioInfo.Options.opt_Survival_Gamemode == nil) then
 		ScenarioInfo.Options.opt_Survival_Gamemode = "Standard";
 	end
-	
+
 	if (ScenarioInfo.Options.opt_Survival_EnemyType == nil) then
 		ScenarioInfo.Options.opt_Survival_EnemyType = 4;
 	end
-	
+
 	if (ScenarioInfo.Options.opt_Survival_BuildTime == nil) then
 		ScenarioInfo.Options.opt_Survival_BuildTime = 300;
 	end
@@ -27,11 +27,11 @@ SetDefaults = function()
 
 	if (ScenarioInfo.Options.opt_Survival_Endless == nil) then
 		ScenarioInfo.Options.opt_Survival_Endless = 1;
-	end	
-	
+	end
+
 	if (ScenarioInfo.Options.opt_Survival_AllLanes == nil) then
 		ScenarioInfo.Options.opt_Survival_AllLanes = 0;
-	end	
+	end
 
 	if (ScenarioInfo.Options.opt_Survival_UnitsLoad == nil) then
 		ScenarioInfo.Options.opt_Survival_UnitsLoad = 0;
@@ -56,11 +56,11 @@ SetDefaults = function()
 	if (ScenarioInfo.Options.opt_Survival_Boss == nil) then
 		ScenarioInfo.Options.opt_Survival_Boss = 1;
 	end
-	
+
 	if (ScenarioInfo.Options.opt_Survival_Nuke == nil) then
 		ScenarioInfo.Options.opt_Survival_Nuke = 1;
 	end
-	
+
 	if (ScenarioInfo.Options.opt_Survival_Bases == nil) then
 		ScenarioInfo.Options.opt_Survival_Bases = 1;
 	end
@@ -87,13 +87,13 @@ SetDefaults = function()
 
 	if (ScenarioInfo.Options.opt_Survival_Damage == nil) then
 		ScenarioInfo.Options.opt_Survival_Damage = 1;
-	end	
-	
+	end
+
 	if (ScenarioInfo.Options.opt_Survival_Health == nil) then
 		ScenarioInfo.Options.opt_Survival_Health = 1;
 	end
 
 	if (ScenarioInfo.Options.opt_Survival_Scale == nil) then
 		ScenarioInfo.Options.opt_Survival_Scale = 1;
-	end	
+	end
 end

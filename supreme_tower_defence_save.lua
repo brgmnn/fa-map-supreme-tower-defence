@@ -3399,7 +3399,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_1                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_1'] = 
+        ['ARMY_1'] =
         {
             personality = '',
             plans = '',
@@ -3426,7 +3426,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_2                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_2'] = 
+        ['ARMY_2'] =
         {
             personality = '',
             plans = '',
@@ -3453,7 +3453,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_3                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_3'] = 
+        ['ARMY_3'] =
         {
             personality = '',
             plans = '',
@@ -3486,7 +3486,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_4                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_4'] = 
+        ['ARMY_4'] =
         {
             personality = '',
             plans = '',
@@ -3519,7 +3519,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_5                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_5'] = 
+        ['ARMY_5'] =
         {
             personality = '',
             plans = '',
@@ -3546,7 +3546,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_6                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_6'] = 
+        ['ARMY_6'] =
         {
             personality = '',
             plans = '',
@@ -3573,7 +3573,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_7                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_7'] = 
+        ['ARMY_7'] =
         {
             personality = '',
             plans = '',
@@ -3600,7 +3600,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_8                                                                   ]]--
         --[[                                                                           ]]--
-        ['ARMY_8'] = 
+        ['ARMY_8'] =
         {
             personality = '',
             plans = '',
@@ -3627,7 +3627,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_17                                                                  ]]--
         --[[                                                                           ]]--
-        ['ARMY_17'] = 
+        ['ARMY_17'] =
         {
             personality = '',
             plans = '',
@@ -3654,7 +3654,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  NEUTRAL_CIVILIAN                                                         ]]--
         --[[                                                                           ]]--
-        ['NEUTRAL_CIVILIAN'] = 
+        ['NEUTRAL_CIVILIAN'] =
         {
             personality = '',
             plans = '',
@@ -3681,7 +3681,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_SURVIVAL_ALLY                                                       ]]--
         --[[                                                                           ]]--
-        ['ARMY_SURVIVAL_ALLY'] = 
+        ['ARMY_SURVIVAL_ALLY'] =
         {
             personality = '',
             plans = '',
@@ -3708,7 +3708,7 @@ Scenario = {
         --[[                                                                           ]]--
         --[[  ARMY_SURVIVAL_ENEMY                                                      ]]--
         --[[                                                                           ]]--
-        ['ARMY_SURVIVAL_ENEMY'] = 
+        ['ARMY_SURVIVAL_ENEMY'] =
         {
             personality = '',
             plans = '',

@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -20,10 +20,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -79,7 +79,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -93,10 +93,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
       'sbrnt2exmdfu',
 		},
@@ -126,7 +126,7 @@ local s_UnitTable =
 		{
 		},
 		--8 Gunship
-		{		
+		{
       'sxsa0203u',
 		},
 
@@ -157,7 +157,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -169,12 +169,12 @@ local s_UnitTable =
 		{
 		},
 		--4 Ranged
-		{		
-		},
-		--5 Custom	
 		{
 		},
-		--6 Experimental	
+		--5 Custom
+		{
+		},
+		--6 Experimental
 		{
       'sbrnt1advbotu', 'sbrot2asb', 'sbrpt1expbotu','sbrpt1hvbotu',
 		},
@@ -230,13 +230,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
       'sbal0401u', 'sbrmt3ava', 'sbrpt3shbmu', 'sual0401', 'sual0401u', 'suel0401u', 'surl0402', 'surl0402u', 'sxslew0001u',
 		},
 		--3 Support
@@ -247,14 +247,14 @@ local s_UnitTable =
 		{
       'sbrl0401ub', 'sbrmt3avau', 'sbrnt3batu', 'suelew0003u', 'surl0401', 'surlew0001',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -284,7 +284,7 @@ local s_UnitTable =
       'xaa9905'
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{
@@ -308,7 +308,7 @@ local s_UnitTable =
       'xrs9905'
 		},
 	},
-	["Boss"] = 
+	["Boss"] =
 	{
     {  --Land
       'sbel0402', 'sbrmt3avab', 'sbrmt3exbmb', 'sbrmt3mcm4', 'sbrmt3mcm4b', 'sbrmt3snakeb', 'sbrmt3hadesb', 'sbrmt3hvbotb', 'sbrpt3shbm', 'sura0401b1', 'url0403',

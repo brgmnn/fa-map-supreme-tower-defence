@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -27,12 +27,12 @@ local s_UnitTable =
 		--Mod Custom Units -- That dont fit in the other categories
 		--5 Custom
 		{
-		
+
 		},
 		--Mod Exp Units that are above all other
 		--6 Experimental
 		{
-		
+
 		}
 	},
 	["Air T1"] =
@@ -47,7 +47,7 @@ local s_UnitTable =
 		},
 		--3 Support
 		{
-				
+
 		},
 		--4 Ranged
 		{
@@ -55,11 +55,11 @@ local s_UnitTable =
 		},
 		--5 Custom
 		{
-		
+
 		},
 		--6 Experimental
 		{
-		
+
 		},
 		--7 Bomber
 		{
@@ -87,15 +87,15 @@ local s_UnitTable =
 		},
 		--4 Ranged
 		{
-		
+
 		},
 		--5 Custom
 		{
-		
+
 		},
 		--6 Experimental
 		{
-		
+
 		},
 	},
 	["Land T2"] =
@@ -119,7 +119,7 @@ local s_UnitTable =
 		{
 			'UEL0111','URL0111','UAL0111','XSL0111',	--MML
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
 		--6 Experimental
@@ -142,15 +142,15 @@ local s_UnitTable =
 		},
 		--4 Ranged
 		{
-		
+
 		},
 		--5 Custom
 		{
-		
+
 		},
 		--6 Experimental
 		{
-		
+
 		},
 		--7 Bomber
 		{
@@ -238,7 +238,7 @@ local s_UnitTable =
 		},
 		--6 Experimental
 		{
-		
+
 		},
 		--7 Bomber
 		{
@@ -270,14 +270,14 @@ local s_UnitTable =
 		},
 		--5 Custom
 		{
-		
+
 		},
 		--6 Experimental
 		{
-		
+
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
 		--1 Scout
 		{},
@@ -302,7 +302,7 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -332,7 +332,7 @@ local s_UnitTable =
 			'URA0401',	--Soul Ripper
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

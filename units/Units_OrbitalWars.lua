@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -19,10 +19,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -33,7 +33,7 @@ local s_UnitTable =
 		},
 		--2 Fighter
 		{
-      'UAOW0101', 
+      'UAOW0101',
 		},
 		--3 Support
 		{
@@ -46,7 +46,7 @@ local s_UnitTable =
 		},
 		--6 Experimental
 		{
-      'UAOW1103','UEOW1103','UROW1103', 'XSOW1101', 
+      'UAOW1103','UEOW1103','UROW1103', 'XSOW1101',
 		},
 		--7 Bomber
 		{
@@ -78,33 +78,11 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
 		{
-		},
-		--3 Support
-		{
-		},
-		--4 Ranged
-		{
-		},
-		--5 Custom	
-		{
-		},
-		--6 Experimental	
-		{
-		},
-	},
-	["Air T2"] =
-	{
-		--1 Spy
-		{
-		},
-		--2 Fighter
-		{
-      'UEA0202', 'URA0202', 
 		},
 		--3 Support
 		{
@@ -117,13 +95,35 @@ local s_UnitTable =
 		},
 		--6 Experimental
 		{
-      'UAOW1101', 'UEOW1102', 'UROW1101', 'XSOW1103', 
+		},
+	},
+	["Air T2"] =
+	{
+		--1 Spy
+		{
+		},
+		--2 Fighter
+		{
+      'UEA0202', 'URA0202',
+		},
+		--3 Support
+		{
+		},
+		--4 Ranged
+		{
+		},
+		--5 Custom
+		{
+		},
+		--6 Experimental
+		{
+      'UAOW1101', 'UEOW1102', 'UROW1101', 'XSOW1103',
 		},
 		--7 Bomber
 		{
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -150,33 +150,11 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
 		{
-		},
-		--3 Support
-		{
-		},
-		--4 Ranged
-		{		
-		},
-		--5 Custom	
-		{
-		},
-		--6 Experimental	
-		{
-		},
-	},
-	["Air T3"] =
-	{
-		--1 Spy
-		{
-		},
-		--2 Fighter
-		{
-      'UEAN0303', 
 		},
 		--3 Support
 		{
@@ -189,10 +167,32 @@ local s_UnitTable =
 		},
 		--6 Experimental
 		{
-      'UAOW1102', 
-      'UEOW1101', 
-      'UROW1102', 
-      'XSOW1102', 
+		},
+	},
+	["Air T3"] =
+	{
+		--1 Spy
+		{
+		},
+		--2 Fighter
+		{
+      'UEAN0303',
+		},
+		--3 Support
+		{
+		},
+		--4 Ranged
+		{
+		},
+		--5 Custom
+		{
+		},
+		--6 Experimental
+		{
+      'UAOW1102',
+      'UEOW1101',
+      'UROW1102',
+      'XSOW1102',
 		},
 		--7 Bomber
 		{
@@ -222,13 +222,13 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 		},
 		--3 Support
 		{
@@ -236,14 +236,14 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -270,7 +270,7 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

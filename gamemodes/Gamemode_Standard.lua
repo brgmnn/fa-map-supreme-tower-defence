@@ -22,18 +22,18 @@ PlayerRestrictions = function(Army, Mods)
 	ScenarioFramework.AddRestriction(Army, categories.NUKE);
 	ScenarioFramework.AddRestriction(Army, categories.xeb2402);	--Sat
 	ScenarioFramework.AddRestriction(Army, categories.xab1401);	--para
-	
+
 	--UEF Drones Allowed
 	ScenarioFramework.RemoveRestriction(Army, categories.uea0001);
 	ScenarioFramework.RemoveRestriction(Army, categories.uea0003);
 	ScenarioFramework.RemoveRestriction(Army, categories.xea3204);
-	
+
 	--BlackOps FAF: Unleashed
-	if(Mods[5][1]) then	
+	if(Mods[5][1]) then
 		ScenarioFramework.AddRestriction(Army, categories.baa0401); --Artemis Sat
 		ScenarioFramework.AddRestriction(Army, categories.bab2404); --Artemis Sat
 	end
-	
+
 	if(Mods[7][1]) then	--Marlos
 		ScenarioFramework.AddRestriction(Army, categories.krb0205);  --Reclaim Turret, slows game down too much
 	end
@@ -44,7 +44,7 @@ PlayerRestrictions = function(Army, Mods)
 		ScenarioFramework.AddRestriction(Army, categories.xnl0301_NaturalProducer);
 		ScenarioFramework.RemoveRestriction(Army, categories.xnl0403);	--Allow Missile Tank
 	end
-	
+
 	if(Mods[8][1]) then	--Supreme Unit Pack
 		ScenarioFramework.AddRestriction(Army, categories.smp0051);  --Literally Crashes the game
 		ScenarioFramework.AddRestriction(Army, categories.smp0016);  --Sera T3 Arti, Laggy and OP
@@ -71,7 +71,7 @@ GameplayUpdate = function(Wave)
 		for i, Army in ListArmies() do
 			ScenarioFramework.RemoveRestriction(Army, categories.xab1401);	--para
 		end
-		PrintText("Aeon Paragon Available", 30, 'ffCBFFFF', 4, 'center')	
+		PrintText("Aeon Paragon Available", 30, 'ffCBFFFF', 4, 'center')
 		ParagonCheck = true;
 	end
 end

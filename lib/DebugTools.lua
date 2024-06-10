@@ -9,7 +9,7 @@ SpawnModUnits = function(UnitList)
 
 	--Loop through each mod
 	--Tier
-	for i = 1, 4 do																
+	for i = 1, 4 do
 		--LAND
 		for x = 1, table.getn(UnitList["Land T" .. i]) do	--Type
 			for y = 1, table.getn(UnitList["Land T" .. i][x]) do			--Unit

@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -19,10 +19,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -93,10 +93,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -169,14 +169,14 @@ local s_UnitTable =
 		},
 		--4 Ranged
 		{
-			'SEL0320', 'SRL0311',						--Arti		
+			'SEL0320', 'SRL0311',						--Arti
 			 --'SRL0318', EMP unit that doesn't work?
 		},
-		--5 Custom	
+		--5 Custom
 		{
-			'SAL0324', 'SRL0324', 'SSL0324',			--Radar		
+			'SAL0324', 'SRL0324', 'SSL0324',			--Radar
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
@@ -232,7 +232,7 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
 		--1 Scout
 		{
@@ -247,14 +247,14 @@ local s_UnitTable =
 		{
 			'SAL0401',	--Siege Tank
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -282,7 +282,7 @@ local s_UnitTable =
 			'SEA0401',	--AA Gunship
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

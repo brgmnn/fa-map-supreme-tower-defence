@@ -3,9 +3,9 @@
 
 --Table is broken down into Tiers then categories then spawn groups
 --Each group is spawned at different ratios depending on their type and power
-local s_UnitTable = 
+local s_UnitTable =
 {
-	["Land T1"] = 
+	["Land T1"] =
 	{
 		--1 Scout
 		{
@@ -23,10 +23,10 @@ local s_UnitTable =
 		--4 Ranged
 		{
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'brnt1advbot', 'brnt1exm1', 'brnt1exmob', 'brnt1extk',			--UEF
 			'brot1bt', 'brot1btt2', 'brot1exm1', 'brot1exm2', 'brot1exmobart', 'brot1extank', --Aeon
@@ -89,7 +89,7 @@ local s_UnitTable =
 	},
 	["Land T2"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -106,10 +106,10 @@ local s_UnitTable =
 		{
 			'brnt2potshot',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'brnt2bm',  'brnt2exlm',   'brnt2exm2', 'brnt2exmdf', 'brnt2sniper',	--UEF
 			'brot2asb', 'brot2exbm', 'brot2exm2',  'brot2exth',									--AEON
@@ -144,7 +144,7 @@ local s_UnitTable =
 			'broat2fibo'
 		},
 		--8 Gunship
-		{		
+		{
 		},
 
 	},
@@ -172,7 +172,7 @@ local s_UnitTable =
 	},
 	["Land T3"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
@@ -187,13 +187,13 @@ local s_UnitTable =
 			'brmt3aa', 'brnt3aa', 'brot3aa'	--AA
 		},
 		--4 Ranged
-		{		
-			'brnt3ml','brot3ml', 'brmt3ml', 'brpt3ml',  
+		{
+			'brnt3ml','brot3ml', 'brmt3ml', 'brpt3ml',
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'brnt3advbtbot', 'brnt3ow',		--UEF
 			'brot3exm1',					--AEON
@@ -250,13 +250,13 @@ local s_UnitTable =
 			'brost3bship'
 		},
 	},
-	["Land T4"] = 
+	["Land T4"] =
 	{
-		--1 Scout 
+		--1 Scout
 		{
 		},
 		--2 Assault
-		{ 
+		{
 			'brnt3argus', 'brnt3blasp', 'brnt3shbm',								--UEF
 			'brot3btbot', 'brot3coug', 'brot3ham', 'brot3ncm', 'brot3ncm2', 'brot3shbm', --AEON
 			'brmt3exbm', 'brmt3mcm', 'brmt3mcm2', 'brmt3mcm4', 'brmt3vul',			--Cybran
@@ -270,17 +270,17 @@ local s_UnitTable =
 		{
 			'brnt3bat', 'brnt3doomsday',	--UEF
 		},
-		--5 Custom	
+		--5 Custom
 		{
 		},
-		--6 Experimental	
+		--6 Experimental
 		{
 			'brnt3shbm2',				--UEF
 			'brot3hades',				--Aeon
 			'brmt3ava', 'brmt3snake',	--Cybran
 		},
 	},
-	["Air T4"] = 
+	["Air T4"] =
 	{
 		--1 Spy
 		{
@@ -308,7 +308,7 @@ local s_UnitTable =
 		{
 		},
 	},
-	["Navy T4"] = 
+	["Navy T4"] =
 	{
 		--1 Submarine
 		{

@@ -49,14 +49,14 @@ local s_DebugMode = false;	--Makes the Defense Objective on the enemy team and s
 --Messages
 --------------------------------------------------------------------------
 --A place to put version update infomation
-local s_VersionMessages = 
+local s_VersionMessages =
 {
 	"| * This is an example of your version message!",
 	"| * Added: New Version messages at the top of the script for easy access!",
 	--Add as many lines as you need for your new version
 }
 
-local s_InstructionMessage = 
+local s_InstructionMessage =
 {
 	"|         Build your defenses and protect the defense structure.",
 	"|         More Example text can go here to explain additional infomation"
@@ -78,14 +78,14 @@ local s_EndMessage =
 --------------------------------------------------------------------------
 -- Gamemodes
 --------------------------------------------------------------------------
-local s_Gamemodes = 
+local s_Gamemodes =
 {
 	["Standard"] = 'Gamemode_Standard.lua',
 	["RNG"] = 'Gamemode_RNG.lua',
 }
 
 -- Mod Support
-local s_Mods = 
+local s_Mods =
 {
 	{true,  "Base", 'Units_Base.lua'},											--1
 	{false, "Nomads", 'Units_Nomads.lua'},										--2
@@ -104,12 +104,12 @@ local s_Mods =
 	{false, "Research & Daiquiris", 'Units_BrewLAN_RnD.lua'},					--15
 	{false, "New SupCom  Annihilation", 'Units_BrewLAN_RnD.lua'},				--16
 	{false, "BlackOps FAF: EXUnits", 'Units_BlackOpsEXUnits.lua'},				--17
-	{false, "Antares Unit Pack (Preservation)", 'Units_AntaresUnitPack.lua'},	--18	
-	{false, "(F.B.P.) Future Battlefield Pack: Legends", 'Units_FBPL.lua'},		--19	
-	{false, "Experimentals Wars", 'Units_ExperimentalsWars.lua'},				--20	
-	{false, "Annihilation New SupCom", 'Units_AnnihilationSupCom.lua'},			--21		
-	{false, "SCTABalance", 'Units_SCTABalance.lua'},							--22		
-	{false, "SCTAFix", 'Units_SCTAFix.lua'},									--23	
+	{false, "Antares Unit Pack (Preservation)", 'Units_AntaresUnitPack.lua'},	--18
+	{false, "(F.B.P.) Future Battlefield Pack: Legends", 'Units_FBPL.lua'},		--19
+	{false, "Experimentals Wars", 'Units_ExperimentalsWars.lua'},				--20
+	{false, "Annihilation New SupCom", 'Units_AnnihilationSupCom.lua'},			--21
+	{false, "SCTABalance", 'Units_SCTABalance.lua'},							--22
+	{false, "SCTAFix", 'Units_SCTAFix.lua'},									--23
 	{false, "Hyper Experimental Tier", 'Units_HyperET.lua'},					--24
 	{false, "Mixed Combat Pack", 'Units_MCP.lua'},								--25
 }
@@ -193,13 +193,13 @@ local s_HealthScale = 0.04;				--Health Increase Per Wave
 local s_SpeedScale = 0.004;				--Speed Increase Per Wave
 --------------------------------------------------------------------------
 
-local s_PathsIndex = 
+local s_PathsIndex =
 {
 	["LAND"] = 0, ["AIR"] = 0, ["NAVY"] = 0, ["LANDBOSS"] = 0, ["AIRBOSS"] = 0, ["NAVYBOSS"] = 0, ["ENEMY"] = 0,
 }
 local s_MoveMarkers = --TYPE / PATHS / Path POINTS
 {
-	["LAND"] = 
+	["LAND"] =
 	{	--PATHS
 		["SPAWN"] = {},	--Spawn positions for Paths
 		{}, --1 Path POINTS
@@ -231,13 +231,13 @@ local s_ScoreTotal = 0;
 --Pregame Setup
 function OnPopulate()
 	LOG("----- Survival MODE: OnPopulate()");
-		
+
 	--Settings Check
 	SetupSettings();
 
 	--Spawn Resources
 	CreateResources();
-	
+
 	--Spawn ACU Units
 	s_PlayerACUs = ACUModule.SpawnACUs(s_Mods);
 	s_PlayerCount = s_PlayerACUs["PlayerCount"];
@@ -287,7 +287,7 @@ SetupGame = function()
 	for i, Army in ListArmies() do
 
 		-- Player Army Check
-		if (ArmyToInt.GetInt(Army) > 0) then 
+		if (ArmyToInt.GetInt(Army) > 0) then
 
 			--Setup Alliances
 			SetAlliance(Army, "ARMY_SURVIVAL_ALLY", 'Ally');	--Survival ALLY
@@ -296,8 +296,8 @@ SetupGame = function()
 			--Set all players as Alliance
 			for x, ArmyX in ListArmies() do
 				-- Player Army Check
-				if (ArmyToInt.GetInt(ArmyX) > 0) then 
-					SetAlliance(Army, ArmyX, 'Ally'); 
+				if (ArmyToInt.GetInt(ArmyX) > 0) then
+					SetAlliance(Army, ArmyX, 'Ally');
 				end
 			end
 		end
@@ -309,8 +309,8 @@ Restrictions = function()
 
 	for i, Army in ListArmies() do
 		-- Player Army Check
-		if (ArmyToInt.GetInt(Army) > 0) then 
-		
+		if (ArmyToInt.GetInt(Army) > 0) then
+
 			if(ScenarioInfo.Options.opt_Survival_Restrict == 0) then
 				--Restrictions (LAND and AIR is always enabled)
 				if(s_NavyEnabled == false) then
@@ -373,7 +373,7 @@ GameUpdate = function(self)
 	while (s_GameStage < 5) do
 
 		s_CurrentTime = GetGameTimeSeconds();
-	
+
 		if(s_GameStage == 0) then								--Build Time--
 
 			--Post Build Time
@@ -412,7 +412,7 @@ GameUpdate = function(self)
 				end
 			end
 		elseif(s_GameStage == 1) then							--Gameplay--
-		
+
 			--Objective Timer
 			if(ScenarioInfo.Options.opt_Survival_Endless == 1) then
 				Sync.ObjectiveTimer =  math.floor(s_CurrentTime);
@@ -479,12 +479,12 @@ GameUpdate = function(self)
 
 			---Update Timer
 			Sync.ObjectiveTimer = math.floor(s_CurrentTime);
-			
+
 			s_DefenseObjectiveUnit:SetCustomName("Endless Wave: " .. s_WaveTotalCount); -- Classic objective with wave count on it
 
 			--Gamemode Hook
 			s_GamemodeSettings.GameplayUpdate(s_WaveTotalCount);
-			
+
 			--Base Destruction Victory
 			EnemyBaseVictoryCheck();
 
@@ -494,7 +494,7 @@ GameUpdate = function(self)
 				--end of the Endless Table
 				if(s_WaveEndless > table.getn(s_TableFile.GetEndlessTable())) then
 					s_WaveEndless = 0;
-				else 
+				else
 					--Spawn Wave
 					SpawnWave();
 					s_NextSpawnTime = s_CurrentTime + ScenarioInfo.Options.opt_Survival_WaveFrequency;	--Next Wave Time
@@ -503,27 +503,27 @@ GameUpdate = function(self)
 			end
 
 		elseif(s_GameStage == 3) then							--Player Victory--
-		
+
 			--Show Stats!
 			GetArmyBrain("ARMY_SURVIVAL_ENEMY"):OnDefeat();
 			GetArmyBrain("ARMY_SURVIVAL_ALLY"):OnVictory();
 			for i, Army in ListArmies() do
 				-- Player Army Check
-				if (ArmyToInt.GetInt(Army) > 0) then 
+				if (ArmyToInt.GetInt(Army) > 0) then
 					GetArmyBrain(Army):OnVictory();
 				end
-			end		
+			end
 			SetGameStage(5);
 			PrintText(s_EndMessage[1], 35, 'ffCBFFFF', 600, 'center')
 			CalculateFinalScore();
 			Victory.CallEndGame()
-		
+
 		elseif(s_GameStage == 4) then							--Player Loss--
 			GetArmyBrain("ARMY_SURVIVAL_ENEMY"):OnVictory();
 			GetArmyBrain("ARMY_SURVIVAL_ALLY"):OnDefeat();
 			for i, Army in ListArmies() do
 				-- Player Army Check
-				if (ArmyToInt.GetInt(Army) > 0) then 
+				if (ArmyToInt.GetInt(Army) > 0) then
 					GetArmyBrain(Army):OnDefeat();
 				end
 			end
@@ -556,12 +556,12 @@ SpawnWave = function()
 
 	if(s_WavesTable[s_Wave]["Title"] ~= nil) then
 		--Offset from center
-		PrintText(" ", 30, 'fff4f4f4', 3, 'center')	
-		PrintText(" ", 30, 'fff4f4f4', 3, 'center')	
-		PrintText(" ", 30, 'fff4f4f4', 3, 'center')	
-		PrintText(" ", 30, 'fff4f4f4', 3, 'center')	
+		PrintText(" ", 30, 'fff4f4f4', 3, 'center')
+		PrintText(" ", 30, 'fff4f4f4', 3, 'center')
+		PrintText(" ", 30, 'fff4f4f4', 3, 'center')
+		PrintText(" ", 30, 'fff4f4f4', 3, 'center')
 		PrintText(s_WavesTable[s_Wave]["Title"], 30, 'fff4f4f4', 4, 'center')
-		
+
 	end
 
 	--Nuke
@@ -583,7 +583,7 @@ SpawnWave = function()
 
 	--Base
 	if(ScenarioInfo.Options.opt_Survival_Bases ~= 0 and s_WavesTable[s_Wave]["Base"] ~= nil) then
-	
+
 		local EnemyObjBP = ScenarioInfo.Options.opt_Survival_Bases;
 
 		--Spawn Enemy Base
@@ -602,7 +602,7 @@ SpawnWave = function()
 			s_EnemyBasesSpawned = true;
 		end
 	end
-	
+
 	--Check if Boss wave
 	if(ScenarioInfo.Options.opt_Survival_Boss == 1 and s_WavesTable[s_Wave]["Boss"] ~= nil) then
 		SpawnBossWave();
@@ -628,7 +628,7 @@ CustomWave = function(self)
 	local waveCount = 0;
 	local categoryCount = 0;
 	local position = {};
-	
+
 	while (spawnEnabled == true) do
 
 		--Loop through each category
@@ -642,7 +642,7 @@ CustomWave = function(self)
 			elseif(v == 3) then
 				type = "NAVY"
 			end
-			
+
 			--Category not used
 			if(s_WavesTable[s_Wave]["Custom"][type] == nil
 				or v == 1 and s_LandEnabled == false
@@ -660,7 +660,7 @@ CustomWave = function(self)
 					waveCount = waveCount + 1;
 					continue;
 				end
-				
+
 				--Spawn Rate
 				if(ScenarioInfo.Options.opt_Survival_SpawnRate == 1) then
 					--Spawn at Once
@@ -669,7 +669,7 @@ CustomWave = function(self)
 					--Spawn over the Wave
 					unitSpawn = math.ceil(s_WavesTable[s_Wave]["Custom"][type][x][1] / ScenarioInfo.Options.opt_Survival_WaveFrequency);
 				end
-				
+
 				--Remaining Unit count from Wave Table
 				for w = 1, unitSpawn do
 
@@ -678,11 +678,11 @@ CustomWave = function(self)
 
 						--Make sure its valid
 						if(s_WavesTable[s_Wave]["Custom"][type][x][y] ~= nil) then
-				
+
 							--Per Player Army
 							for z, Army in ListArmies() do
 								if (ArmyToInt.GetInt(Army) > 0) then
-							
+
 
 									MarkerData = GetSpawnMarker(type, ArmyToInt.GetInt(Army) , false);
 									position[1] = MarkerData[1].position[1];
@@ -737,14 +737,14 @@ end
 
 --Used in each wave
 WaveUpdate = function(self)
-	
+
 	local s_WaveCount = 0;
 
 	--LOG("WAVE " .. s_Wave .. " Started"):
 	while (s_WaveActive) do
-		
+
 		s_WaveCount = 0;
-	
+
 		for i = 1, 4 do
 
 			-- LAND
@@ -802,7 +802,7 @@ NukeWave = function(self)
 				KillThread(self);
 			end
 		end
-			
+
 		WaitSeconds(VolleyTimer);	--Time till next Volley
 	end
 	KillThread(self);
@@ -817,7 +817,7 @@ SpawnBossWave = function()
 	local position = {0,0,0};
 	local PlatoonList = {};
 	local BossWave = {};
-	
+
 	--Spawn for Each player (list through all armies and find players)
 	for z, Army in ListArmies() do
 		--Make sure this is a player
@@ -847,13 +847,13 @@ SpawnBossWave = function()
 						LOG("ERROR - Wave " .. s_Wave .. " Boss Unit count is not a postive number!");
 						BossWave["Count"] = 1;	--Set to 1 incase
 					end
-					
+
 					--Each Blueprint
 					for y = 1, table.getn(BossWave["Blueprint"]) do
 
 						--Unit Count
 						for x = 1, BossWave["Count"] do
-					
+
 							MarkerData = GetSpawnMarker(BossWave["Type"] .. "BOSS", z, true);
 							position[1] = MarkerData[1].position[1];
 							position[2] = MarkerData[1].position[2];
@@ -900,7 +900,7 @@ SpawnCategory = function(prefix, type)
 
 		--Loop Through Tier Table
 		for x = 1, table.getn(s_WavesTable[s_Wave][prefix]) do
-			
+
 			--If we have no unit blueprints for this table, Disable it
 			if(table.getn(s_UnitTables[prefix][x]) == 0) then
 				s_WavesTable[s_Wave][prefix][x] = 0;
@@ -910,7 +910,7 @@ SpawnCategory = function(prefix, type)
 
 			--Has units left on the table
 			if(s_WavesTable[s_Wave][prefix][x] > 0) then
-				
+
 				if(ScenarioInfo.Options.opt_Survival_SpawnRate == 1) then
 					--Spawn at Once
 					UnitSpawn = s_WavesTable[s_Wave][prefix][x];
@@ -921,7 +921,7 @@ SpawnCategory = function(prefix, type)
 
 				--Remaining Unit count from Wave Table
 				for y = 1, UnitSpawn do
-					
+
 					--Get Random Blueprint from Unit Table
 					ref = s_UnitTables[prefix][x];
 
@@ -936,7 +936,7 @@ SpawnCategory = function(prefix, type)
 						end
 
 						if(bp ~= nil) then
-							
+
 							--Spawn for Each player (list through all armies and find players)
 							for z, Army in ListArmies() do
 
@@ -974,7 +974,7 @@ SpawnCategory = function(prefix, type)
 								end
 							end
 						end
-					end					
+					end
 					--Progress Wave
 					s_WavesTable[s_Wave][prefix][x] = s_WavesTable[s_Wave][prefix][x] - 1;
 				end
@@ -1008,7 +1008,7 @@ SpawnUnit = function(blueprint, type, position, mods, boss, addHP, addSpeed, vet
 	end
 
 	local Unit = CreateUnitHPR(blueprint, "ARMY_SURVIVAL_ENEMY", position[1], position[2], position[3], 0,0,0);
-	
+
 	--Settings
 	Unit:SetReclaimable(false);
 	Unit:SetCapturable(false);
@@ -1017,7 +1017,7 @@ SpawnUnit = function(blueprint, type, position, mods, boss, addHP, addSpeed, vet
 
 	if(boss) then
 		Unit:SetCustomName("BOSS");
-		
+
 		--Set Veterancy (Challenge)
 		if(vet ~= nil) then
 			for i = 1, vet do
@@ -1046,7 +1046,7 @@ SpawnUnit = function(blueprint, type, position, mods, boss, addHP, addSpeed, vet
 	else
 		Unit:SetSpeedMult(addSpeed + 1 + (s_WaveTotalCount * s_SpeedScale));
 	end
-	
+
 	--T4 Unit Modding
 	UnitMods.ModUnit(Unit, blueprint, mods, s_WaveTotalCount);
 
@@ -1152,7 +1152,7 @@ SetupMarkers = function()
 
 			--Setup Spawn Markers
 			MarkerRef = GetMarker(prefix .. "_SPAWN_" .. u);
-			
+
 			if (MarkerRef != nil) then
 				--LOG(prefix .. "_SPAWN_" .. u);
 				if(s_MoveMarkers[prefix]["SPAWN"] == nil) then
@@ -1204,7 +1204,7 @@ GetSpawnMarker = function(type, playerID, boss)
 	else	--Spread spawns over all spawn points
 		--Increment
 		s_PathsIndex[type] = s_PathsIndex[type] + 1;
-	
+
 		--[LAND][PATH][POINT]
 		if(s_PathsIndex[type] > table.getn(s_MoveMarkers[type]["SPAWN"])) then
 			s_PathsIndex[type] = 1;
@@ -1219,7 +1219,7 @@ end
 
 -- test platoon order function
 --------------------------------------------------------------------------
-PlatoonOrder = function(ArmyID, UnitList, OrderID, type, pathID)	
+PlatoonOrder = function(ArmyID, UnitList, OrderID, type, pathID)
 
 	if (UnitList == {} or table.getn(UnitList) == 0) then
 		return;
@@ -1229,11 +1229,11 @@ PlatoonOrder = function(ArmyID, UnitList, OrderID, type, pathID)
 	local aiBrain = GetArmyBrain(ArmyID);
 	local aiPlatoon = aiBrain:MakePlatoon('','');
 	aiBrain:AssignUnitsToPlatoon(aiPlatoon, UnitList, 'Attack', 'None'); -- platoon, unit list, "mission" and formation
-	
+
 	--Loop through all POINTS in PATHS
 	if(s_MoveMarkers[type][pathID] ~= nil) then
 		for i = 1, table.getn(s_MoveMarkers[type][pathID]) do
-	
+
 			--[LAND][PATHS][POINTS]
 			position[1] = s_MoveMarkers[type][pathID][i].position[1];
 			position[2] = s_MoveMarkers[type][pathID][i].position[2];
@@ -1314,7 +1314,7 @@ end
 SetupSettings = function()
 
 	import(s_Directory .. 'lib/DefaultOptions.lua').SetDefaults();
-	
+
 	if (ScenarioInfo.Options.opt_Survival_BuildTime == 90) then
 		s_WarnTime = 90;
 	elseif (ScenarioInfo.Options.opt_Survival_BuildTime == 60) then
@@ -1348,7 +1348,7 @@ SetupSettings = function()
 		s_DamageScale = 0;
 		s_HealthScale = 0;
 		s_SpeedScale = 0;
-	end	
+	end
 
 	--T4 Unit mods
 	UnitMods = import(s_Directory .. 'lib/T4UnitMods.lua');
@@ -1363,7 +1363,7 @@ SetupSettings = function()
 	--Wave Table
 	s_TableFile = import(s_Directory .. 'waves/' .. ScenarioInfo.Options.opt_Survival_WaveTable .. '.lua')
 	s_WavesTable = s_TableFile.GetWaveTable();
-	
+
 	--Wave Balancing
 	local TypeCount = 0;
 	if(s_LandEnabled) then
@@ -1378,11 +1378,11 @@ SetupSettings = function()
 
 	--Nerf wave depending how many are spawning
 	WaveBalance(TypeCount);
-	   
+
 	--Calculate Waves and Time
 	s_TotalWaves = table.getn(s_WavesTable);
 	if(ScenarioInfo.Options.opt_Survival_StartWave > 0) then
-		
+
 		--Check for Last Wave option
 		if(ScenarioInfo.Options.opt_Survival_StartWave == 9999) then
 			s_Wave = s_TotalWaves;
@@ -1421,7 +1421,7 @@ WaveBalance = function(count)
 		for i = 1, 4 do
 			if(s_WavesTable[w]["Land T" .. i] ~= nil) then
 				for x = 1, table.getn(s_WavesTable[w]["Land T" .. i]) do		--Type
-					s_WavesTable[w]["Land T" .. i][x] 
+					s_WavesTable[w]["Land T" .. i][x]
 						= math.ceil(s_WavesTable[w]["Land T" .. i][x] * ratio);
 				end
 			end
@@ -1433,7 +1433,7 @@ WaveBalance = function(count)
 			end
 			if(s_WavesTable[w]["Navy T" .. i] ~= nil) then
 				for x = 1, table.getn(s_WavesTable[w]["Navy T" .. i]) do		--Type
-					s_WavesTable[w]["Navy T" .. i][x] 
+					s_WavesTable[w]["Navy T" .. i][x]
 						= math.ceil(s_WavesTable[w]["Navy T" .. i][x] * ratio);
 				end
 			end
@@ -1490,7 +1490,7 @@ end
 SpawnDefenseObjective = function()
 
 	LOG("----- Survival MODE: Initializing Spawning Defense Objective");
-	
+
 	--Defense Objective blueprint
 	local DefenseObjBP = ScenarioInfo.Options.opt_Survival_DefStructure;
 
@@ -1517,7 +1517,7 @@ SpawnDefenseObjective = function()
 	--Give the Objective an ACUs worth of production incase players lose resources
 	s_DefenseObjectiveUnit:SetProductionPerSecondEnergy(20);
 	s_DefenseObjectiveUnit:SetProductionPerSecondMass(1);
-	
+
 	local s_DefUnitBP = s_DefenseObjectiveUnit:GetBlueprint();
 	s_DefUnitBP.Intel.MaxVisionRadius = 200;
 	s_DefUnitBP.Intel.MinVisionRadius = 200;
@@ -1535,11 +1535,11 @@ SpawnDefenseObjective = function()
 		self.OldOnKilled(self, instigator, type, overkillRatio);
 
 		if(s_GameStage == 2) then
-		
+
 			PrintText(s_EndMessage[5], 35, 'ffCBFFFF', 600, 'center')
 			SetGameStage(3);	--Player Victory in Endless Stage
 		else
-		
+
 			PrintText(s_EndMessage[4], 35, 'ffCBFFFF', 600, 'center')
 			SetGameStage(4);	--Player Defeat
 		end
@@ -1562,7 +1562,7 @@ EnemyBaseVictoryCheck = function()
 	end
 	if(count == table.getn(s_EnemyBases)) then
 		--Player Victory!
-		
+
 		PrintText(s_EndMessage[3], 35, 'ffCBFFFF', 600, 'center')
 		SetGameStage(3);
 	end
@@ -1575,7 +1575,7 @@ end
 CreateResources = function()
 
 	local MarkerRef = nil;
-	
+
 	local MarkerData = {};
 	local ArmyPos = {};
 	local POS = {};
@@ -1590,7 +1590,7 @@ CreateResources = function()
 	--Loop Through all players
 	for i, Army in ListArmies() do
 		if (ArmyToInt.GetInt(Army) > 0) then
-		
+
 			--Get ARMY Spawn position
 			MarkerData = GetMarker(Army);
 			ArmyPos[1] = MarkerData.position[1];
@@ -1599,7 +1599,7 @@ CreateResources = function()
 			POS[1] = ArmyPos[1];
 			POS[2] = ArmyPos[2];
 			POS[3] = ArmyPos[3];
-			
+
 			if(FastEco ~= 0) then
 				blueprints = ResourceCreation.GetResourceBlueprint(Army, FastEco, s_Mods);
 			end
@@ -1614,7 +1614,7 @@ CreateResources = function()
 
 					--Each element in table
 					for z = 1, table.getn(s_MassResources[x]) do
-						
+
 						if(s_MassResources[x][z] == 1) then
 							POS[1] = (ArmyPos[1] - Offset) + (z * 2);
 							ResourceCreation.CreateResource("Mass", POS[1], POS[2], POS[3]);
@@ -1633,7 +1633,7 @@ CreateResources = function()
 					Offset = ((table.getn(s_HydroResources[x]) * 6) / 2) + 3; --x Offset
 
 					for z = 1, table.getn(s_HydroResources[x]) do
-						
+
 						if(s_HydroResources[x][z] == 1) then
 							POS[1] = (ArmyPos[1] + Offset) - (z * 6);	--x
 							ResourceCreation.CreateResource("Hydrocarbon", POS[1], POS[2], POS[3]);
@@ -1646,7 +1646,7 @@ CreateResources = function()
 
 			else --Setup Resources by hand
 				POS = ArmyPos;
-				
+
 				--Spawn Hydro
 				ResourceCreation.CreateResource("Hydrocarbon", POS[1] + 6, POS[2], POS[3] - 10);
 				ResourceCreation.CreateResource("Hydrocarbon", POS[1] - 6, POS[2], POS[3] - 10);
@@ -1671,7 +1671,7 @@ CreateResources = function()
 
 					--Hydro
 					CreateUnitHPR(blueprints[1], Army, POS[1] + 6, POS[2], POS[3] - 10, 0,0,0);
-				
+
 					if(FastEco > 1) then
 						CreateUnitHPR(blueprints[1], Army, POS[1] - 6, POS[2], POS[3] - 10, 0,0,0);
 					end
@@ -1706,13 +1706,13 @@ ImportMods = function()
 		LOG("----- Survival MODE: Nomads Detected");
 		s_Mods[2][1] = true;
 	end
-	
-	
+
+
 	ModCount = 0;
-  
+
 	-- Track mods
 	for index, moddata in __active_mods do
-		
+
 		--Loop through All Mods for a match
 		for i = 1, table.getn(s_Mods) do
 			if(moddata.name == s_Mods[i][2]) then
@@ -1721,18 +1721,18 @@ ImportMods = function()
 				ModCount = ModCount + 1;
 			end
 		end
-		
+
 		-- Make sure the RIGHT version of Extreme Wars is being used
 		if(moddata.name == "Extreme Wars.") then	--Damn broken vault version
 			LOG("---- Survival MODE: WRONG VERSION OF EXTREME WARS, use Extreme Wars without the dot");
-			--PrintText("WRONG VERSION OF EXTREME WARS", 35, 'ffff0000', 6, 'center')	
+			--PrintText("WRONG VERSION OF EXTREME WARS", 35, 'ffff0000', 6, 'center')
 			s_Mods[9][1] = false;
 		end
 
 		LOG('---- Survival Mode: Tracking: '..moddata.name);
 	end
-	
-	
+
+
 	--Disable Base Game Units
 	if(ScenarioInfo.Options.opt_Survival_UnitsLoad == 2 and ModCount > 0) then
 		s_Mods[1][1] = false;
@@ -1752,7 +1752,7 @@ ImportMods = function()
 	if(s_Mods[11][1] == true and s_Mods[4][1] == false) then
 		s_Mods[11][1] = false;
 	end
-	
+
 	local s_ImportTable = {};	--For Importing tables
 
 	-- Apply Mods, hope you like for loops
@@ -1831,9 +1831,9 @@ CalculateFinalScore = function()
 	s_ScoreModifier = s_ScoreModifier + ScenarioInfo.Options.opt_Survival_Damage - 1;
 	s_ScoreModifier = s_ScoreModifier + ScenarioInfo.Options.opt_Survival_Health - 1;
 	s_ScoreModifier = s_ScoreModifier + ScenarioInfo.Options.opt_Survival_Scale - 1;
-	
+
 	s_ScoreTotal = math.floor(s_ScoreModifier * (GetGameTimeSeconds() - ScenarioInfo.Options.opt_Survival_BuildTime));
-	PrintText("Final Score: " .. s_ScoreTotal, 35, 'ffCBFFFF', 600, 'center')	
+	PrintText("Final Score: " .. s_ScoreTotal, 35, 'ffCBFFFF', 600, 'center')
 
 end
 
@@ -1888,21 +1888,21 @@ end
 
 BroadcastMSG = function(MSG, Fade, TextColor)
 	--print(MSG);
-	PrintText(MSG, 30, TextColor, Fade, 'center')	
+	PrintText(MSG, 30, TextColor, Fade, 'center')
 end
 
 -- A lot of Text, lets seperate it
 IntroMessage = function()
 
 	--Center Text
-	PrintText(ScenarioInfo.name, 35, 'ffCBFFFF', 6, 'center')	
+	PrintText(ScenarioInfo.name, 35, 'ffCBFFFF', 6, 'center')
 	for i = 1, table.getn(s_TitleCredits) do
 		PrintText(s_TitleCredits[i], 20, 'ffffffff', 5, 'center')
 	end
 	PrintText("Script By Packer", 20, 'ffffffff', 5, 'center')
 
 	--Instructions
-	PrintText("|     How to Play", 30, 'ffffffff', 20, 'leftcenter')	
+	PrintText("|     How to Play", 30, 'ffffffff', 20, 'leftcenter')
 	for i = 1, table.getn(s_InstructionMessage) do
 		PrintText(s_InstructionMessage[i], 20, 'fff4f4f4', 21, 'leftcenter')
 	end
@@ -1920,7 +1920,7 @@ IntroMessage = function()
 	if(s_NavyEnabled) then
 		enemyTypes = enemyTypes .. " Navy";
 	end
-	
+
 	PrintText(" ", 64, 'fff4f4f4', 10, 'centertop')	--Top Spacer
 	PrintText(" ", 64, 'fff4f4f4', 10, 'centertop')	--Top Spacer
 	PrintText(enemyTypes, 20, 'ffCBFFFF', 20, 'centertop')
@@ -1928,11 +1928,11 @@ end
 
 ModMessage = function()
 
-	PrintText("Mods Detected:   ", 20, 'ffffffff', 7, 'rightcenter')	
+	PrintText("Mods Detected:   ", 20, 'ffffffff', 7, 'rightcenter')
 
 	for i = 2, table.getn(s_Mods) do
 		if(s_Mods[i][1]) then
-				PrintText(s_Mods[i][2] .. "   ", 15, 'ff00CC03', 6 + i, 'rightcenter')	
+				PrintText(s_Mods[i][2] .. "   ", 15, 'ff00CC03', 6 + i, 'rightcenter')
 		end
 	end
 end

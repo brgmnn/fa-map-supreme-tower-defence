@@ -1146,7 +1146,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 153.5, 9.844351, 499.5 ),
                 },
-                ['Mass 95'] = {
+                ['Mass 127'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1155,7 +1155,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 34.5, 10.00061, 487.5 ),
+                    ['position'] = VECTOR3( 162.5, 10.00061, 481.5 ),
                 },
                 ['BASE3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1218,7 +1218,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 708.5, 10.00061, 368.5 ),
                 },
-                ['Mass 83'] = {
+                ['Mass 58'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1227,14 +1227,18 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 78.5, 16.00098, 303.5 ),
+                    ['position'] = VECTOR3( 528.5, 12.00073, 694.5001 ),
                 },
-                ['LANDBOSS_PATH_5_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 100'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 299.5, 10.00061, 675.5 ),
+                    ['position'] = VECTOR3( 314.5, 12.00073, 576.5 ),
                 },
                 ['AIR_PATH_4_5'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1243,16 +1247,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 196.5, 4.000244, 502.5 ),
                 },
-                ['Mass 66'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['NAVY_SPAWN_2'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 308.5, 12.00073, 758.5001 ),
+                    ['position'] = VECTOR3( 1009.5, 0, 503.5 ),
                 },
                 ['Mass 105'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1276,16 +1276,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 74.5, 16.00098, 653.5001 ),
                 },
-                ['Mass 15'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['NAVYBOSS_PATH_8_2'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 376.5, 12.00073, 268.5 ),
+                    ['position'] = VECTOR3( 389.5, 2.000122, 482.5 ),
                 },
                 ['NAVYBOSS_PATH_5_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1294,7 +1290,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 721.4999, 0.6328511, 533.5 ),
                 },
-                ['Mass 99'] = {
+                ['Mass 60'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1303,7 +1299,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 312.5, 12.00073, 449.5 ),
+                    ['position'] = VECTOR3( 526.5, 12.00073, 696.5 ),
                 },
                 ['NUKE7'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1323,16 +1319,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 310.5, 12.00073, 266.5 ),
                 },
-                ['Mass 64'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['LAND_PATH_1_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 310.5, 12.00073, 756.5 ),
+                    ['position'] = VECTOR3( 153.5, 9.902948, 522.5 ),
                 },
                 ['DEFENSE_SPAWN'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1341,16 +1333,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 36.5, 10.00061, 511.5 ),
                 },
-                ['Mass 38'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['AIRBOSS_PATH_8_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 720.4999, 12.00073, 570.5 ),
+                    ['position'] = VECTOR3( 516.5, 10.00061, 421.5 ),
                 },
                 ['LANDBOSS_PATH_6_4'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1394,7 +1382,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 1004.5, 10.44203, 433.5 ),
                 },
-                ['Mass 50'] = {
+                ['Mass 119'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1403,7 +1391,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 524.5, 12.00073, 650.5 ),
+                    ['position'] = VECTOR3( 78.5, 16.00098, 653.5001 ),
                 },
                 ['BASE2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1444,12 +1432,37 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 509.5, 12.00073, 358.5 ),
                 },
-                ['LAND_PATH_8_5'] = {
+                ['Mass 114'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 74.5, 16.00098, 370.5 ),
+                },
+                ['AIRBOSS_PATH_8_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 25.5, 10.00061, 409.5 ),
+                    ['position'] = VECTOR3( 708.5, 10.00061, 383.5 ),
+                },
+                ['NAVY_PATH_4_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 181.5, 4.000244, 483.5 ),
+                },
+                ['NUKE5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 999.5, 20.00122, 743.5001 ),
                 },
                 ['Mass 17'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1462,7 +1475,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 710.4999, 12.00073, 721.5 ),
                 },
-                ['Mass 69'] = {
+                ['Mass 96'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1471,36 +1484,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 310.5, 12.00073, 262.5 ),
-                },
-                ['Mass 77'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 230.5, 12.00073, 396.5 ),
-                },
-                ['Mass 106'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 218.5, 12.00073, 712.5 ),
-                },
-                ['NAVY_PATH_5_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 183.5, 4.000244, 552.5 ),
+                    ['position'] = VECTOR3( 310.5, 12.00073, 576.5 ),
                 },
                 ['AIRBOSS_PATH_6_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1520,7 +1504,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 376.5, 12.00073, 754.5001 ),
                 },
-                ['Mass 40'] = {
+                ['Mass 39'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1529,7 +1513,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 696.4999, 12.00073, 568.5 ),
+                    ['position'] = VECTOR3( 720.4999, 12.00073, 453.5 ),
                 },
                 ['AIRBOSS_SPAWN_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1538,23 +1522,19 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 1009.5, 17.99322, 613.5 ),
                 },
-                ['AIR_PATH_4_4'] = {
+                ['NAVY_PATH_3_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 377.5, 12.00073, 451.5 ),
+                    ['position'] = VECTOR3( 716.4999, 0.6133177, 525.5 ),
                 },
-                ['Mass 36'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['LANDBOSS_SPAWN_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 724.5, 12.00073, 570.5 ),
+                    ['position'] = VECTOR3( 959.5, 10.00061, 683.5001 ),
                 },
                 ['Mass 101'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1567,16 +1547,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 314.5, 12.00073, 447.5 ),
                 },
-                ['Mass 34'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['NAVY_PATH_3_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 722.5, 12.00073, 568.5 ),
+                    ['position'] = VECTOR3( 180.5, 4.000244, 539.5 ),
                 },
                 ['Mass 74'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1589,12 +1565,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 228.5, 12.00073, 626.5 ),
                 },
-                ['NAVY_SPAWN_1'] = {
+                ['LANDBOSS_PATH_3_5'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 1009.5, 0, 523.5 ),
+                    ['position'] = VECTOR3( 102.5, 10.00061, 560.5 ),
                 },
                 ['AIRBOSS_PATH_1_5'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1603,12 +1579,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 142.5, 10.00061, 540.5 ),
                 },
-                ['LANDBOSS_PATH_3_5'] = {
+                ['NAVY_SPAWN_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 102.5, 10.00061, 560.5 ),
+                    ['position'] = VECTOR3( 1009.5, 0, 523.5 ),
                 },
                 ['LAND_PATH_4_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1624,16 +1600,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 98.49999, 10.00061, 567.5 ),
                 },
-                ['Mass 03'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['AIRBOSS_PATH_2_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 372.5, 12.00073, 453.5 ),
+                    ['position'] = VECTOR3( 145.5, 10.00061, 483.5 ),
                 },
                 ['LAND_SPAWN_7'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1642,12 +1614,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 929.5, 10.00061, 723.5001 ),
                 },
-                ['AIR_PATH_5_1'] = {
+                ['BASE4'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 869.5, 10.00061, 664.5001 ),
+                    ['position'] = VECTOR3( 979.5, 10.00061, 413.5 ),
                 },
                 ['AIRBOSS_PATH_5_5'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1663,21 +1635,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 496.5, 10.00061, 602.5 ),
                 },
-                ['NAVY_PATH_5_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 716.4999, 0.617224, 533.5 ),
-                },
-                ['LANDBOSS_PATH_7_5'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 51.5, 10.00061, 614.5 ),
-                },
-                ['Mass 26'] = {
+                ['Mass 11'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1686,7 +1644,46 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 632.5, 12.00073, 574.5 ),
+                    ['position'] = VECTOR3( 374.5, 12.00073, 270.5 ),
+                },
+                ['LANDBOSS_PATH_7_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 51.5, 10.00061, 614.5 ),
+                },
+                ['LAND_PATH_8_4'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 102.5, 10.00061, 276.5 ),
+                },
+                ['LAND_SPAWN_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 929.5, 10.00061, 683.5001 ),
+                },
+                ['NAVY_PATH_4_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 716.4999, 0.6211307, 497.5 ),
+                },
+                ['Mass 61'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 526.5, 12.00073, 328.5 ),
                 },
                 ['Mass 82'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1699,31 +1696,6 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 78.5, 16.00098, 720.5 ),
                 },
-                ['NAVY_PATH_4_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 716.4999, 0.6211307, 497.5 ),
-                },
-                ['Mass 90'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 30.5, 10.00061, 536.5 ),
-                },
-                ['NAVY_PATH_1_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 716.4999, 0.1796975, 517.5 ),
-                },
                 ['AIRBOSS_PATH_4_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
@@ -1731,16 +1703,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 709.5, 12.00073, 445.5 ),
                 },
-                ['Mass 25'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['LANDBOSS_PATH_6_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 634.5, 12.00073, 452.5 ),
+                    ['position'] = VECTOR3( 708.5, 10.00061, 338.5 ),
                 },
                 ['LAND_PATH_3_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1749,7 +1717,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 297.5, 10.00061, 665.5 ),
                 },
-                ['Mass 24'] = {
+                ['Mass 37'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1758,9 +1726,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 634.5, 12.00073, 572.5 ),
+                    ['position'] = VECTOR3( 724.5, 12.00073, 453.5 ),
                 },
-                ['Mass 20'] = {
+                ['Mass 86'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1769,7 +1737,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 714.5, 12.00073, 302.5 ),
+                    ['position'] = VECTOR3( 74.5, 16.00098, 720.5 ),
                 },
                 ['Mass 79'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1821,16 +1789,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 160.5, 10.00061, 544.5 ),
                 },
-                ['Mass 94'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['LAND_PATH_4_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 34.5, 10.00061, 536.5 ),
+                    ['position'] = VECTOR3( 706.4999, 10.00061, 368.5 ),
                 },
                 ['AIRBOSS_PATH_6_4'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1839,7 +1803,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 41.5, 16.00098, 341.5 ),
                 },
-                ['Mass 31'] = {
+                ['Mass 28'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1848,7 +1812,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 632.5, 12.00073, 454.5 ),
+                    ['position'] = VECTOR3( 630.5, 12.00073, 572.5 ),
                 },
                 ['NAVY_SPAWN_5'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -1886,7 +1850,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 160.5, 10.00061, 479.5 ),
                 },
-                ['Mass 73'] = {
+                ['Mass 67'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1895,7 +1859,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 226.5, 12.00073, 396.5 ),
+                    ['position'] = VECTOR3( 308.5, 12.00073, 264.5 ),
                 },
                 ['Mass 32'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1922,16 +1886,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 204.5, 10.00061, 373.5 ),
                 },
-                ['Mass 04'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['LANDBOSS_PATH_3_4'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 374.5, 12.00073, 572.5 ),
+                    ['position'] = VECTOR3( 186.5, 10.00061, 665.5 ),
                 },
                 ['Mass 01'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -1944,18 +1904,14 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 370.5, 12.00073, 451.5 ),
                 },
-                ['Mass 12'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['AIR_PATH_3_2'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 374.5, 12.00073, 756.5 ),
+                    ['position'] = VECTOR3( 710.4999, 12.00073, 579.5 ),
                 },
-                ['Mass 49'] = {
+                ['Mass 42'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -1964,7 +1920,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 526.5, 12.00073, 371.5 ),
+                    ['position'] = VECTOR3( 694.5, 12.00073, 570.5 ),
                 },
                 ['LAND_PATH_7_5'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2012,12 +1968,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 705.4999, 10.00061, 673.5001 ),
                 },
-                ['AIRBOSS_PATH_6_5'] = {
+                ['AIR_PATH_5_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 28.5, 10.00061, 408.5 ),
+                    ['position'] = VECTOR3( 511.5, 12.00073, 665.5 ),
                 },
                 ['Mass 62'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2030,16 +1986,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 524.5, 12.00073, 694.5001 ),
                 },
-                ['Mass 05'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['NAVYBOSS_PATH_4_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 374.5, 12.00073, 451.5 ),
+                    ['position'] = VECTOR3( 721.4999, 0.6406641, 497.5 ),
                 },
                 ['AIRBOSS_PATH_2_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2048,12 +2000,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 592.5, 10.00061, 377.5 ),
                 },
-                ['ARMY_2'] = {
+                ['LAND_PATH_7_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 99.5, 10.00061, 460.5 ),
+                    ['position'] = VECTOR3( 297.5, 10.00061, 685.5 ),
                 },
                 ['LAND_PATH_3_4'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2073,6 +2025,20 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 218.5, 12.00073, 716.5 ),
                 },
+                ['NAVYBOSS_PATH_6_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 183.5, 4.000244, 471.5 ),
+                },
+                ['AIR_PATH_6_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 869.5, 10.00061, 370.5 ),
+                },
                 ['Mass 88'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
@@ -2084,28 +2050,14 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 32.5, 10.00061, 534.5 ),
                 },
-                ['AIR_PATH_6_1'] = {
+                ['LANDBOSS_PATH_2_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 869.5, 10.00061, 370.5 ),
+                    ['position'] = VECTOR3( 708.5, 10.00061, 399.5 ),
                 },
-                ['NAVYBOSS_PATH_6_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 183.5, 4.000244, 471.5 ),
-                },
-                ['AIRBOSS_PATH_2_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 766.4999, 10.00061, 334.5 ),
-                },
-                ['Mass 91'] = {
+                ['Mass 102'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -2114,7 +2066,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 30.5, 10.00061, 487.5 ),
+                    ['position'] = VECTOR3( 312.5, 12.00073, 578.5 ),
                 },
                 ['NAVY_PATH_8_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2145,16 +2097,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 228.5, 12.00073, 398.5 ),
                 },
-                ['Mass 45'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['AIRBOSS_PATH_8_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 696.4999, 12.00073, 451.5 ),
+                    ['position'] = VECTOR3( 153.5, 10.00061, 358.5 ),
                 },
                 ['NAVYBOSS_SPAWN_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2188,12 +2136,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 372.5, 12.00073, 570.5 ),
                 },
-                ['AIR_PATH_1_4'] = {
+                ['NAVY_PATH_5_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 269.5, 12.00073, 593.5 ),
+                    ['position'] = VECTOR3( 387.5, 2.000122, 533.5 ),
                 },
                 ['Mass 10'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2266,6 +2214,13 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 1009.5, 20.00122, 743.5001 ),
                 },
+                ['LAND_PATH_2_2'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 460.5, 10.00061, 440.5 ),
+                },
                 ['Mass 29'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
@@ -2276,13 +2231,6 @@ Scenario = {
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 630.5, 12.00073, 452.5 ),
-                },
-                ['LAND_PATH_2_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 460.5, 10.00061, 440.5 ),
                 },
                 ['Mass 103'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2302,14 +2250,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 77.5, 10.00061, 583.5 ),
                 },
-                ['AIR_PATH_3_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 870.4999, 10.00061, 582.5 ),
-                },
-                ['Mass 06'] = {
+                ['Mass 18'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -2318,7 +2259,25 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 372.5, 12.00073, 574.5 ),
+                    ['position'] = VECTOR3( 712.5, 12.00073, 300.5 ),
+                },
+                ['LAND_PATH_5_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 297.5, 10.00061, 675.5 ),
+                },
+                ['Mass 08'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 372.5, 12.00073, 754.5001 ),
                 },
                 ['AIRBOSS_PATH_7_5'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2326,17 +2285,6 @@ Scenario = {
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 153.5, 10.00061, 665.5 ),
-                },
-                ['Mass 122'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 158.5, 10.00061, 542.5 ),
                 },
                 ['LANDBOSS_PATH_3_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2352,12 +2300,16 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 462.5, 10.00061, 276.5 ),
                 },
-                ['LANDBOSS_PATH_8_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 35'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 708.5, 10.00061, 271.5 ),
+                    ['position'] = VECTOR3( 722.5, 12.00073, 455.5 ),
                 },
                 ['LAND_SPAWN_8'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2377,7 +2329,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 220.5, 12.00073, 714.5001 ),
                 },
-                ['Mass 81'] = {
+                ['Mass 16'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -2386,14 +2338,14 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 76.5, 16.00098, 301.5 ),
+                    ['position'] = VECTOR3( 710.4999, 12.00073, 302.5 ),
                 },
-                ['NAVY_PATH_8_1'] = {
+                ['AIRBOSS_PATH_5_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 716.4999, 1.23836, 482.5 ),
+                    ['position'] = VECTOR3( 250.5, 12.00073, 735.5 ),
                 },
                 ['NAVYBOSS_PATH_7_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2402,19 +2354,23 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 389.5, 2.000122, 540.5 ),
                 },
-                ['NAVY_PATH_7_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 00'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 190.5, 4.000244, 534.5 ),
+                    ['position'] = VECTOR3( 370.5, 12.00073, 572.5 ),
                 },
-                ['AIR_PATH_6_2'] = {
+                ['LAND_SPAWN_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 708.5, 10.00061, 352.5 ),
+                    ['position'] = VECTOR3( 929.5, 10.00061, 643.5001 ),
                 },
                 ['NAVY_PATH_7_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2423,12 +2379,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 387.5, 2.000122, 540.5 ),
                 },
-                ['AIRBOSS_SPAWN_6'] = {
+                ['AIRBOSS_PATH_8_4'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 969.5, 11.46162, 273.5 ),
+                    ['position'] = VECTOR3( 302.5, 10.00061, 358.5 ),
                 },
                 ['AIR_PATH_1_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2451,19 +2407,23 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 180.5, 5.500427, 518.5 ),
                 },
-                ['AIRBOSS_PATH_4_2'] = {
+                ['LANDBOSS_PATH_4_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 567.5, 0.839895, 499.5 ),
+                    ['position'] = VECTOR3( 299.5, 10.00061, 358.5 ),
                 },
-                ['AIR_PATH_1_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 57'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 709.5, 12.00073, 721.5 ),
+                    ['position'] = VECTOR3( 526.5, 12.00073, 332.5 ),
                 },
                 ['AIRBOSS_PATH_3_4'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2483,37 +2443,33 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 230.5, 12.00073, 628.5 ),
                 },
-                ['NAVY_SPAWN_3'] = {
+                ['LAND_PATH_3_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 1009.5, 0.8984923, 543.5 ),
+                    ['position'] = VECTOR3( 460.5, 10.00061, 614.5 ),
                 },
-                ['Mass 57'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 526.5, 12.00073, 332.5 ),
-                },
-                ['AIRBOSS_SPAWN_7'] = {
+                ['LANDBOSS_SPAWN_6'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 989.5, 10.00452, 643.5001 ),
+                    ['position'] = VECTOR3( 959.5, 10.00061, 343.5 ),
                 },
-                ['AIR_PATH_8_2'] = {
+                ['NAVY_PATH_7_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 512.5, 1.531343, 503.5 ),
+                    ['position'] = VECTOR3( 716.4999, 1.164136, 540.5 ),
+                },
+                ['AIR_SPAWN_7'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 999.5, 0.9492772, 543.5 ),
                 },
                 ['Mass 93'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2573,16 +2529,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 721.4999, 1.070378, 540.5 ),
                 },
-                ['Mass 47'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['NAVYBOSS_SPAWN_6'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 698.5, 12.00073, 453.5 ),
+                    ['position'] = VECTOR3( 969.5, 0.8984914, 483.5 ),
                 },
                 ['ARMY_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2598,12 +2550,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 387.5, 2.000122, 517.5 ),
                 },
-                ['AIR_PATH_3_4'] = {
+                ['AIR_PATH_2_5'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 378.5, 12.00073, 574.5 ),
+                    ['position'] = VECTOR3( 99.5, 10.00061, 457.5 ),
                 },
                 ['NAVY_PATH_2_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2619,30 +2571,26 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 389.5, 2.000122, 525.5 ),
                 },
+                ['ARMY_6'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 249.5, 12.00073, 289.5 ),
+                },
+                ['AIRBOSS_PATH_4_4'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 268.5, 12.00073, 432.5 ),
+                },
                 ['NAVYBOSS_SPAWN_5'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 969.5, 0, 523.5 ),
-                },
-                ['AIRBOSS_PATH_7_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 708.5, 10.00061, 645.5 ),
-                },
-                ['Mass 55'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 528.5, 12.00073, 373.5 ),
                 },
                 ['AIRBOSS_PATH_4_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2651,12 +2599,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 428.5, 2.015748, 504.5 ),
                 },
-                ['NAVY_SPAWN_6'] = {
+                ['AIR_PATH_3_5'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 1009.5, 1.461027, 463.5 ),
+                    ['position'] = VECTOR3( 196.5, 4.000244, 521.5 ),
                 },
                 ['Mass 59'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2669,13 +2617,6 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 528.5, 12.00073, 330.5 ),
                 },
-                ['AIR_PATH_7_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 357.5, 10.00061, 677.5 ),
-                },
                 ['LAND_PATH_7_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
@@ -2683,12 +2624,19 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 706.4999, 10.00061, 752.5 ),
                 },
-                ['AIR_PATH_3_5'] = {
+                ['AIR_PATH_7_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 196.5, 4.000244, 521.5 ),
+                    ['position'] = VECTOR3( 357.5, 10.00061, 677.5 ),
+                },
+                ['NAVY_SPAWN_6'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 1009.5, 1.461027, 463.5 ),
                 },
                 ['Mass 43'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2701,33 +2649,41 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 694.5, 12.00073, 453.5 ),
                 },
-                ['AIRBOSS_PATH_4_4'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 47'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 268.5, 12.00073, 432.5 ),
+                    ['position'] = VECTOR3( 698.5, 12.00073, 453.5 ),
                 },
-                ['ARMY_6'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 55'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 249.5, 12.00073, 289.5 ),
+                    ['position'] = VECTOR3( 528.5, 12.00073, 373.5 ),
                 },
-                ['AIR_PATH_2_5'] = {
+                ['AIR_PATH_3_4'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 99.5, 10.00061, 457.5 ),
+                    ['position'] = VECTOR3( 378.5, 12.00073, 574.5 ),
                 },
-                ['NAVYBOSS_SPAWN_6'] = {
+                ['AIRBOSS_PATH_7_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 969.5, 0.8984914, 483.5 ),
+                    ['position'] = VECTOR3( 708.5, 10.00061, 645.5 ),
                 },
                 ['LANDBOSS_PATH_3_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2736,33 +2692,33 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 708.5, 10.00061, 658.5001 ),
                 },
-                ['AIR_SPAWN_7'] = {
+                ['AIR_PATH_8_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 999.5, 0.9492772, 543.5 ),
+                    ['position'] = VECTOR3( 512.5, 1.531343, 503.5 ),
                 },
-                ['NAVY_PATH_7_1'] = {
+                ['AIRBOSS_SPAWN_7'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 716.4999, 1.164136, 540.5 ),
+                    ['position'] = VECTOR3( 989.5, 10.00452, 643.5001 ),
                 },
-                ['LANDBOSS_SPAWN_6'] = {
+                ['AIR_PATH_1_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 959.5, 10.00061, 343.5 ),
+                    ['position'] = VECTOR3( 709.5, 12.00073, 721.5 ),
                 },
-                ['LAND_PATH_3_2'] = {
+                ['NAVY_SPAWN_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 460.5, 10.00061, 614.5 ),
+                    ['position'] = VECTOR3( 1009.5, 0.8984923, 543.5 ),
                 },
                 ['NUKE8'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2771,19 +2727,19 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 999.5, 20.00122, 290.5 ),
                 },
-                ['LANDBOSS_PATH_4_3'] = {
+                ['AIRBOSS_PATH_4_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 299.5, 10.00061, 358.5 ),
+                    ['position'] = VECTOR3( 567.5, 0.839895, 499.5 ),
                 },
-                ['AIRBOSS_PATH_8_4'] = {
+                ['AIRBOSS_SPAWN_6'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 302.5, 10.00061, 358.5 ),
+                    ['position'] = VECTOR3( 969.5, 11.46162, 273.5 ),
                 },
                 ['LAND_PATH_8_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2792,23 +2748,19 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 297.5, 10.00061, 338.5 ),
                 },
-                ['LAND_SPAWN_3'] = {
+                ['AIR_PATH_6_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 929.5, 10.00061, 643.5001 ),
+                    ['position'] = VECTOR3( 708.5, 10.00061, 352.5 ),
                 },
-                ['Mass 00'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['NAVY_PATH_7_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 370.5, 12.00073, 572.5 ),
+                    ['position'] = VECTOR3( 190.5, 4.000244, 534.5 ),
                 },
                 ['AIR_SPAWN_6'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2817,14 +2769,14 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 1004.5, 13.16875, 368.5 ),
                 },
-                ['AIRBOSS_PATH_5_3'] = {
+                ['NAVY_PATH_8_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 250.5, 12.00073, 735.5 ),
+                    ['position'] = VECTOR3( 716.4999, 1.23836, 482.5 ),
                 },
-                ['Mass 16'] = {
+                ['Mass 81'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -2833,18 +2785,14 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 710.4999, 12.00073, 302.5 ),
+                    ['position'] = VECTOR3( 76.5, 16.00098, 301.5 ),
                 },
-                ['Mass 35'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
+                ['LANDBOSS_PATH_8_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 722.5, 12.00073, 455.5 ),
+                    ['position'] = VECTOR3( 708.5, 10.00061, 271.5 ),
                 },
                 ['LAND_PATH_7_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2853,7 +2801,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 460.5, 10.00061, 747.5 ),
                 },
-                ['Mass 08'] = {
+                ['Mass 122'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -2862,25 +2810,25 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 372.5, 12.00073, 754.5001 ),
+                    ['position'] = VECTOR3( 158.5, 10.00061, 542.5 ),
                 },
-                ['LAND_PATH_5_3'] = {
+                ['Mass 06'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 372.5, 12.00073, 574.5 ),
+                },
+                ['AIR_PATH_3_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 297.5, 10.00061, 675.5 ),
-                },
-                ['Mass 18'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 712.5, 12.00073, 300.5 ),
+                    ['position'] = VECTOR3( 870.4999, 10.00061, 582.5 ),
                 },
                 ['LAND_PATH_2_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2914,12 +2862,12 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 462.5, 10.00061, 297.5 ),
                 },
-                ['NAVY_PATH_5_2'] = {
+                ['AIR_PATH_1_4'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 387.5, 2.000122, 533.5 ),
+                    ['position'] = VECTOR3( 269.5, 12.00073, 593.5 ),
                 },
                 ['NAVY_PATH_2_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2935,14 +2883,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 460.5, 10.00061, 727.5 ),
                 },
-                ['AIRBOSS_PATH_8_5'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 153.5, 10.00061, 358.5 ),
-                },
-                ['Mass 102'] = {
+                ['Mass 45'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -2951,14 +2892,25 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 312.5, 12.00073, 578.5 ),
+                    ['position'] = VECTOR3( 696.4999, 12.00073, 451.5 ),
                 },
-                ['LANDBOSS_PATH_2_1'] = {
+                ['Mass 91'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 30.5, 10.00061, 487.5 ),
+                },
+                ['AIRBOSS_PATH_2_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 708.5, 10.00061, 399.5 ),
+                    ['position'] = VECTOR3( 766.4999, 10.00061, 334.5 ),
                 },
                 ['Mass 44'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -2971,26 +2923,30 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 696.4999, 12.00073, 572.5 ),
                 },
-                ['LAND_PATH_7_3'] = {
+                ['ARMY_2'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 297.5, 10.00061, 685.5 ),
+                    ['position'] = VECTOR3( 99.5, 10.00061, 460.5 ),
                 },
-                ['NAVYBOSS_PATH_4_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 05'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 721.4999, 0.6406641, 497.5 ),
+                    ['position'] = VECTOR3( 374.5, 12.00073, 451.5 ),
                 },
-                ['AIR_PATH_5_3'] = {
+                ['AIRBOSS_PATH_6_5'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 511.5, 12.00073, 665.5 ),
+                    ['position'] = VECTOR3( 28.5, 10.00061, 408.5 ),
                 },
                 ['NAVYBOSS_PATH_5_3'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -2999,7 +2955,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 186.5, 4.000244, 552.5 ),
                 },
-                ['Mass 42'] = {
+                ['Mass 49'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3008,23 +2964,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 694.5, 12.00073, 570.5 ),
+                    ['position'] = VECTOR3( 526.5, 12.00073, 371.5 ),
                 },
-                ['AIR_PATH_3_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 710.4999, 12.00073, 579.5 ),
-                },
-                ['LANDBOSS_PATH_3_4'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 186.5, 10.00061, 665.5 ),
-                },
-                ['Mass 67'] = {
+                ['Mass 12'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3033,9 +2975,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 308.5, 12.00073, 264.5 ),
+                    ['position'] = VECTOR3( 374.5, 12.00073, 756.5 ),
                 },
-                ['Mass 28'] = {
+                ['Mass 04'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3044,16 +2986,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 630.5, 12.00073, 572.5 ),
+                    ['position'] = VECTOR3( 374.5, 12.00073, 572.5 ),
                 },
-                ['LAND_PATH_4_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 706.4999, 10.00061, 368.5 ),
-                },
-                ['Mass 86'] = {
+                ['Mass 73'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3062,9 +2997,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 74.5, 16.00098, 720.5 ),
+                    ['position'] = VECTOR3( 226.5, 12.00073, 396.5 ),
                 },
-                ['Mass 37'] = {
+                ['Mass 31'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3073,16 +3008,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 724.5, 12.00073, 453.5 ),
+                    ['position'] = VECTOR3( 632.5, 12.00073, 454.5 ),
                 },
-                ['LANDBOSS_PATH_6_1'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 708.5, 10.00061, 338.5 ),
-                },
-                ['Mass 61'] = {
+                ['Mass 94'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3091,23 +3019,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 526.5, 12.00073, 328.5 ),
+                    ['position'] = VECTOR3( 34.5, 10.00061, 536.5 ),
                 },
-                ['LAND_SPAWN_5'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 929.5, 10.00061, 683.5001 ),
-                },
-                ['LAND_PATH_8_4'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 102.5, 10.00061, 276.5 ),
-                },
-                ['Mass 11'] = {
+                ['Mass 20'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3116,21 +3030,83 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 374.5, 12.00073, 270.5 ),
+                    ['position'] = VECTOR3( 714.5, 12.00073, 302.5 ),
                 },
-                ['BASE4'] = {
+                ['Mass 24'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 634.5, 12.00073, 572.5 ),
+                },
+                ['Mass 25'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 634.5, 12.00073, 452.5 ),
+                },
+                ['Mass 90'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 30.5, 10.00061, 536.5 ),
+                },
+                ['NAVY_PATH_1_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 979.5, 10.00061, 413.5 ),
+                    ['position'] = VECTOR3( 716.4999, 0.1796975, 517.5 ),
                 },
-                ['AIRBOSS_PATH_2_5'] = {
+                ['Mass 26'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 632.5, 12.00073, 574.5 ),
+                },
+                ['NAVY_PATH_5_1'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 145.5, 10.00061, 483.5 ),
+                    ['position'] = VECTOR3( 716.4999, 0.617224, 533.5 ),
+                },
+                ['AIR_PATH_5_1'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 869.5, 10.00061, 664.5001 ),
+                },
+                ['Mass 03'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 372.5, 12.00073, 453.5 ),
                 },
                 ['LAND_PATH_6_1'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -3139,26 +3115,34 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 706.4999, 10.00061, 338.5 ),
                 },
-                ['NAVY_PATH_3_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 34'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 180.5, 4.000244, 539.5 ),
+                    ['position'] = VECTOR3( 722.5, 12.00073, 568.5 ),
                 },
-                ['LANDBOSS_SPAWN_5'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 36'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 959.5, 10.00061, 683.5001 ),
+                    ['position'] = VECTOR3( 724.5, 12.00073, 570.5 ),
                 },
-                ['NAVY_PATH_3_1'] = {
+                ['AIR_PATH_4_4'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 716.4999, 0.6133177, 525.5 ),
+                    ['position'] = VECTOR3( 377.5, 12.00073, 451.5 ),
                 },
                 ['ARMY_4'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -3167,7 +3151,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 269.5, 12.00073, 428.5 ),
                 },
-                ['Mass 39'] = {
+                ['Mass 40'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3176,9 +3160,16 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 720.4999, 12.00073, 453.5 ),
+                    ['position'] = VECTOR3( 696.4999, 12.00073, 568.5 ),
                 },
-                ['Mass 96'] = {
+                ['NAVY_PATH_5_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 183.5, 4.000244, 552.5 ),
+                },
+                ['Mass 77'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3187,30 +3178,9 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 310.5, 12.00073, 576.5 ),
+                    ['position'] = VECTOR3( 230.5, 12.00073, 396.5 ),
                 },
-                ['NUKE5'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 999.5, 20.00122, 743.5001 ),
-                },
-                ['NAVY_PATH_4_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 181.5, 4.000244, 483.5 ),
-                },
-                ['AIRBOSS_PATH_8_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 708.5, 10.00061, 383.5 ),
-                },
-                ['Mass 114'] = {
+                ['Mass 69'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3219,7 +3189,25 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 74.5, 16.00098, 370.5 ),
+                    ['position'] = VECTOR3( 310.5, 12.00073, 262.5 ),
+                },
+                ['Mass 106'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 218.5, 12.00073, 712.5 ),
+                },
+                ['LAND_PATH_8_5'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 25.5, 10.00061, 409.5 ),
                 },
                 ['LANDBOSS_PATH_5_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -3228,7 +3216,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 462.5, 10.00061, 727.5 ),
                 },
-                ['Mass 119'] = {
+                ['Mass 50'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3237,7 +3225,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 78.5, 16.00098, 653.5001 ),
+                    ['position'] = VECTOR3( 524.5, 12.00073, 650.5 ),
                 },
                 ['Mass 120'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -3261,28 +3249,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 160.5, 10.00061, 483.5 ),
                 },
-                ['AIRBOSS_PATH_8_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 516.5, 10.00061, 421.5 ),
-                },
-                ['LAND_PATH_1_5'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 153.5, 9.902948, 522.5 ),
-                },
-                ['LAND_PATH_6_3'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 297.5, 10.00061, 348.5 ),
-                },
-                ['Mass 60'] = {
+                ['Mass 38'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3291,7 +3258,36 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 526.5, 12.00073, 696.5 ),
+                    ['position'] = VECTOR3( 720.4999, 12.00073, 570.5 ),
+                },
+                ['Mass 64'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 310.5, 12.00073, 756.5 ),
+                },
+                ['LAND_PATH_6_3'] = {
+                    ['color'] = STRING( 'ff800080' ),
+                    ['type'] = STRING( 'Blank Marker' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 297.5, 10.00061, 348.5 ),
+                },
+                ['Mass 99'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 312.5, 12.00073, 449.5 ),
                 },
                 ['Mass 97'] = {
                     ['size'] = FLOAT( 1.000000 ),
@@ -3304,12 +3300,16 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 310.5, 12.00073, 447.5 ),
                 },
-                ['NAVYBOSS_PATH_8_2'] = {
-                    ['color'] = STRING( 'ff800080' ),
-                    ['type'] = STRING( 'Blank Marker' ),
+                ['Mass 15'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 389.5, 2.000122, 482.5 ),
+                    ['position'] = VECTOR3( 376.5, 12.00073, 268.5 ),
                 },
                 ['AIR_PATH_2_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -3318,14 +3318,25 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 710.4999, 12.00073, 302.5 ),
                 },
-                ['NAVY_SPAWN_2'] = {
+                ['Mass 66'] = {
+                    ['size'] = FLOAT( 1.000000 ),
+                    ['resource'] = BOOLEAN( true ),
+                    ['amount'] = FLOAT( 100.000000 ),
+                    ['color'] = STRING( 'ff808080' ),
+                    ['editorIcon'] = STRING( '' ),
+                    ['type'] = STRING( 'Mass' ),
+                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
+                    ['orientation'] = VECTOR3( 0, 0, 0 ),
+                    ['position'] = VECTOR3( 308.5, 12.00073, 758.5001 ),
+                },
+                ['LANDBOSS_PATH_5_3'] = {
                     ['color'] = STRING( 'ff800080' ),
                     ['type'] = STRING( 'Blank Marker' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 1009.5, 0, 503.5 ),
+                    ['position'] = VECTOR3( 299.5, 10.00061, 675.5 ),
                 },
-                ['Mass 100'] = {
+                ['Mass 83'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3334,18 +3345,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 314.5, 12.00073, 576.5 ),
-                },
-                ['Mass 58'] = {
-                    ['size'] = FLOAT( 1.000000 ),
-                    ['resource'] = BOOLEAN( true ),
-                    ['amount'] = FLOAT( 100.000000 ),
-                    ['color'] = STRING( 'ff808080' ),
-                    ['editorIcon'] = STRING( '' ),
-                    ['type'] = STRING( 'Mass' ),
-                    ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
-                    ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 528.5, 12.00073, 694.5001 ),
+                    ['position'] = VECTOR3( 78.5, 16.00098, 303.5 ),
                 },
                 ['AIRBOSS_PATH_5_2'] = {
                     ['color'] = STRING( 'ff800080' ),
@@ -3361,7 +3361,7 @@ Scenario = {
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
                     ['position'] = VECTOR3( 1009.5, 20.00122, 280.5 ),
                 },
-                ['Mass 127'] = {
+                ['Mass 95'] = {
                     ['size'] = FLOAT( 1.000000 ),
                     ['resource'] = BOOLEAN( true ),
                     ['amount'] = FLOAT( 100.000000 ),
@@ -3370,7 +3370,7 @@ Scenario = {
                     ['type'] = STRING( 'Mass' ),
                     ['prop'] = STRING( '/env/common/props/markers/M_Blank_prop.bp' ),
                     ['orientation'] = VECTOR3( 0, 0, 0 ),
-                    ['position'] = VECTOR3( 162.5, 10.00061, 481.5 ),
+                    ['position'] = VECTOR3( 34.5, 10.00061, 487.5 ),
                 },
             },
         },

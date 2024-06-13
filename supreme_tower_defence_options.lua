@@ -43,6 +43,7 @@ options =
 			{text = "7:30 (Extended)",		help = "Good for more relaxed play and new players", 			key = 450, },
 			{text = "10:00",				help = "Recommended for long setups and harder settings", 		key = 600, },
 			{text = "15:00",				help = "Very long setup time", 									key = 900, },
+			{text = "20:00",				help = "Supremely long setup time",								key = 1200, },
 		},
 	},
 	{
